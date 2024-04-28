@@ -1,13 +1,29 @@
 {
-    "Items": [{
+    "LevelTemplate": [{
         "Heading": "My first game",
         "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game",
         "Img": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "alt": "Image of code", "size": {"width": "50%", "height": "50%"}},
-        "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo?si=BLLNkH8ngCUmg94B", "size": {"width": "50%", "height": "50%"}}
+        "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo?si=BLLNkH8ngCUmg94B", "size": {"width": "50%", "height": "50%"}},
+        "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px"}}
         },
         {
             "Heading": "My second game",
             "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game"
+        }
+    ],
+
+
+    "HomeScreen": [{
+        "Heading": "Welcome to my website",
+        "Text": "This is My website, welcome to it",
+        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "500px"}}
+        },
+        {
+            "Text": "Game design has been my passion for many years, and continues to be, and its one passion i cannot throw away or discard"
+        },
+        {
+            "Heading": "Welcome to my website",
+        "Text": "This is My website, welcome to it"
         }
     ]
 }

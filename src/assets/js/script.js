@@ -1,4 +1,6 @@
+let firstTime = true;
 
+// parse a new json web
 function loadGame(readName) {
   let url = 'src/assets/jsonHost/data.json';
 
@@ -10,6 +12,9 @@ function loadGame(readName) {
   })
     .then((responseJson) => {
       console.log("SUCCESFULLY LOADED JSON FILE");
+      if(!firstTime)
+        {clearNew();}
+      firstTime = false;
       readJsonFile(responseJson, readName);
     })
     .catch((error) => {
@@ -17,9 +22,8 @@ function loadGame(readName) {
     });
 }
 
-//document.getElementById("load").addEventListener("onclick", loadGame("Items"));
 
-
+// creating of a new element for the website
 function createElement(element, attribute, inner) {
   if (typeof inner === 'undefined') {
     inner = '';
@@ -49,17 +53,21 @@ function createElement(element, attribute, inner) {
 }
 
 function readJsonFile(t_jsonFile, readName) {
+  // adding of headings into html site
+
   for (let i = 0; i < Object.keys(t_jsonFile[readName]).length; i++) {
     if (t_jsonFile[readName][i].hasOwnProperty('Heading')) {
       let newItem = createElement('h1', { id: 'Heading' }, t_jsonFile[readName][i]["Heading"]);
-      document.body.appendChild(newItem);
+      document.getElementById("clearWrapper").appendChild(newItem);
     }
 
+    // adding of standard text into html site
     if (t_jsonFile[readName][i].hasOwnProperty('Text')) {
       let subText = createElement('p', { id: 'subText' }, t_jsonFile[readName][i]["Text"]);
-      document.body.appendChild(subText);
+      document.getElementById("clearWrapper").appendChild(subText);
     }
 
+    // parsing of image data for pushing into html
     if (t_jsonFile[readName][i].hasOwnProperty('Img')) {
       let Image = createElement('img', {
         src: t_jsonFile[readName][i]["Img"]["file"],
@@ -67,18 +75,55 @@ function readJsonFile(t_jsonFile, readName) {
         width: t_jsonFile[readName][i]["Img"]["size"]["width"],
         height: t_jsonFile[readName][i]["Img"]["size"]["height"]
       });
-      document.body.appendChild(Image);
+      document.getElementById("clearWrapper").appendChild(Image);
     }
 
-    // <iframe width="420" height="315" src="Youtube link"> </iframe>
+   // Parsing of the Video properties
+   //   used for Youtube video parsing
     if (t_jsonFile[readName][i].hasOwnProperty('Video')) {
       let video = createElement('iframe', {
         src: t_jsonFile[readName][i]["Video"]["file"], allowfullscreen: "true", width: t_jsonFile[readName][i]["Video"]["size"]["width"],
         height: t_jsonFile[readName][i]["Video"]["size"]["height"]
       });
-      document.body.appendChild(video);
+      document.getElementById("clearWrapper").appendChild(video);
+    }
+
+    if (t_jsonFile[readName][i].hasOwnProperty('Parallax')) {
+      let parallaxImage = createElement('div', { class: "parallax"
+      });
+      parallaxImage.style.backgroundImage = "url('"+ String(t_jsonFile[readName][i]["Parallax"]["file"]) + "')";
+      parallaxImage.style.minHeight = t_jsonFile[readName][i]["Parallax"]["size"]["height"];
+      document.getElementById("clearWrapper").appendChild(parallaxImage);
     }
   }
 
   //document.getElementById("Heading1").innerHTML = t_jsonFile["Heading"];
+}
+
+loadGame('HomeScreen');
+
+function clearNew()
+{
+  const node = document.getElementById("clearWrapper");
+  if(node === null){
+    console.log("BODY COUDLNT BE FOUND");
+    return;
+  }
+  while (node.firstChild) {
+    node.removeChild(node.firstChild);
+    }
+}
+
+
+function openGitHub()
+{
+  window.open('https://github.com/Splashdamage115','_blank');
+}
+function openLinkedin()
+{
+  window.open('https://www.linkedin.com/in/david-strikaitis-59060b2a2/?trk=opento_sprofile_topcard','_blank');
+}
+function openEmail()
+{
+  window.open('mailto:davidstrik282@gmail.com');
 }

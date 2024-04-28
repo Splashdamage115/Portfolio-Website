@@ -7,6 +7,23 @@ body{
   width: 80vw; 
   padding: 10vw;
 }
+body:hover
+{
+  cursor: auto;
+}
+
+.parallax {
+  /*background-image: url('https://wallpapercave.com/wp/wp3988340.jpg');*/
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #BannerBox{
   position: fixed;
@@ -20,13 +37,13 @@ body{
 
 /* - - Animated name text - - */
 svg {
-  
 font-family: "Russo One", sans-serif;
 width: 100%; height: 100%;
 position:fixed;
 left:-280px;
 top:-140px;
 }
+
 svg text {
 animation: stroke 2s infinite alternate-reverse;
 stroke-width: 3;
@@ -69,14 +86,14 @@ font-size: 64px;
 .dropdown {
   display: inline-block;
   position: fixed; 
-  right: 140px;
+  right: 250px;
   top: 1em;
 }
 
 .Contacts .dropdown {
   display: inline-block;
   position: fixed; 
-  right: 10px;
+  right: 30px;
   top: 1em;
 }
 
