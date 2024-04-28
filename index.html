@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        
-        <meta name="author" content="David Strikaitis">
-        <title>David Strikaitis</title>
-        <link href="src/assets/css/style.css" rel="stylesheet" text="text/css">
 
-        <link rel="icon" href="src/assets/imgs/icon.png">
-    </head>
-    <body>
-        <svg>
-            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-                David Strikaitis
-            </text>
-        </svg>
-    </body>
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="author" content="David Strikaitis">
+    <title>David Strikaitis</title>
+    <link href="src/assets/css/style.css" rel="stylesheet" text="text/css">
+
+    <link rel="icon" href="src/assets/imgs/icon.png">
+</head>
+
+<body>
+    <span id="BannerBox">     </span>
+    <svg>
+        <text x="500px" y="0px" dy="200px" text-anchor="middle">
+            David Strikaitis
+        </text>
+    </svg>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Projects</button>
+            <div class="dropdown-content">
+                <button onclick="loadGame('Items')">Game 1</button>
+                <button onclick="loadGame('Items')">Game 2</button>
+            </div>
+        </div>
+
+    <div class="Contacts">
+        <div class="dropdown">
+            <button class="dropbtn">Contacts</button>
+            <div class="dropdown-content">
+                <button>Instagram</button>
+                <button>Linkedin</button>
+                <button>Email</button>
+            </div>
+        </div>
+    </div>
+
+</body>
 <script src="src/assets/js/script.js"></script>
+
 </html>
