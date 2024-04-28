@@ -1,103 +1,31 @@
 body{
-    background-color: #242124;
-    color: white;
+  background-color: #242124;
+  color: white;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
+/* - - Animated name text - - */
 svg {
-	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
+font-family: "Russo One", sans-serif;
+width: 100%; height: 100%;
 }
 svg text {
-	animation: stroke 2s alternate;
-	stroke-width: 3;
-	stroke: rgb(1, 153, 254);
-    fill: none;
-	font-size: 100px;
+animation: stroke 2s;
+stroke-width: 3;
+stroke: rgb(1, 153, 254);
+fill: none;
+font-size: 8vw;
 }
 @keyframes stroke {
-	0%   {
-		fill: rgba(72,138,204,0); stroke: rgb(0, 13, 255);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-	}
-	70%  {fill: rgba(72,138,204,0); stroke: rgb(1, 179, 255); }
-	80%  {fill: rgba(72,138,204,0); stroke: rgb(1, 153, 254); stroke-width: 3; }
-	100% {
-		fill: rgb(72,138,204,0); stroke: rgba(1, 153, 254);
-		stroke-dashoffset: -10%; stroke-dasharray: 50% 0; stroke-width: 3;
-	}
+0%   {
+  fill: transparent; stroke: rgb(0, 13, 255);
+  stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 1;
+}
+70%  {fill: transparent; stroke: rgb(1, 179, 255); }
+80%  {fill: transparent; stroke: rgb(1, 153, 254); stroke-width: 2; }
+100% {
+  fill: transparent; stroke: rgba(1, 153, 254);
+  stroke-dashoffset: -10%; stroke-dasharray: 50% 0; stroke-width: 3;
+  }
 }
 
 
-
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    right: -95%;
-    width: 4.3em;
-    height: 2em;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #66007d;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 1.6em;
-    width: 1.6em;
-    left: 0.2em;
-    bottom: 0.2em;
-    color: #66007d;
-                border-radius: 50%;
-				box-shadow: 0.4em -0.16em 0px 0px #fff inset; 
-                
-    /*background-color: white;*/
-    -webkit-transition: .5s;
-    transition: .5s;
-  }
-
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(2.3em);
-    -ms-transform: translateX(2.3em);
-    transform: translateX(2.3em);
-    background-color: yellow;
-    clip-path: circle(50%);
-    box-shadow: 0px 0px 0px 0px #fff inset; 
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 2em;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
