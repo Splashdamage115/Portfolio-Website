@@ -12,8 +12,7 @@ function loadGame(readName) {
   })
     .then((responseJson) => {
       console.log("SUCCESFULLY LOADED JSON FILE");
-      if(!firstTime)
-        {clearNew();}
+      if (!firstTime) { clearNew(); }
       firstTime = false;
       readJsonFile(responseJson, readName);
     })
@@ -29,11 +28,11 @@ function createElement(element, attribute, inner) {
     inner = '';
   }
 
-  const el = document.createElement(element);
+  const newElement = document.createElement(element);
 
   if (typeof attribute === 'object') {
     for (const key in attribute) {
-      el.setAttribute(key, attribute[key]);
+      newElement.setAttribute(key, attribute[key]);
     }
   }
 
@@ -43,17 +42,28 @@ function createElement(element, attribute, inner) {
 
   for (let k = 0; k < inner.length; k++) {
     if (inner[k].tagName) {
-      el.appendChild(inner[k]);
+      newElement.appendChild(inner[k]);
     } else {
-      el.appendChild(document.createTextNode(inner[k]));
+      if (inner[k] === "<br>") {
+        newElement.appendChild(document.createElement("br"));
+    } else {
+      newElement.appendChild(document.createTextNode(inner[k]));
+    }
     }
   }
 
-  return el;
+  return newElement;
 }
 
 function readJsonFile(t_jsonFile, readName) {
   // adding of headings into html site
+
+  if(readName == 'All')
+  {
+    clearNew();
+    alert("ERROR: LOADING ALL CONTENT");
+    return;
+  }
 
   for (let i = 0; i < Object.keys(t_jsonFile[readName]).length; i++) {
     if (t_jsonFile[readName][i].hasOwnProperty('Heading')) {
@@ -78,8 +88,8 @@ function readJsonFile(t_jsonFile, readName) {
       document.getElementById("clearWrapper").appendChild(Image);
     }
 
-   // Parsing of the Video properties
-   //   used for Youtube video parsing
+    // Parsing of the Video properties
+    //   used for Youtube video parsing
     if (t_jsonFile[readName][i].hasOwnProperty('Video')) {
       let video = createElement('iframe', {
         src: t_jsonFile[readName][i]["Video"]["file"], allowfullscreen: "true", width: t_jsonFile[readName][i]["Video"]["size"]["width"],
@@ -89,10 +99,27 @@ function readJsonFile(t_jsonFile, readName) {
     }
 
     if (t_jsonFile[readName][i].hasOwnProperty('Parallax')) {
-      let parallaxImage = createElement('div', { class: "parallax"
+      let parallaxImage = createElement('div', {
+        class: "parallax"
       });
-      parallaxImage.style.backgroundImage = "url('"+ String(t_jsonFile[readName][i]["Parallax"]["file"]) + "')";
+      parallaxImage.style.backgroundImage = "url('" + String(t_jsonFile[readName][i]["Parallax"]["file"]) + "')";
       parallaxImage.style.minHeight = t_jsonFile[readName][i]["Parallax"]["size"]["height"];
+      if (t_jsonFile[readName][i]['Parallax']['size'].hasOwnProperty('width')) {
+        parallaxImage.style.width = t_jsonFile[readName][i]["Parallax"]["size"]["width"];
+      }
+      if (t_jsonFile[readName][i]['Parallax'].hasOwnProperty('position')) {
+        parallaxImage.style.margin = "-10vw";
+        parallaxImage.style.textAlign = t_jsonFile[readName][i]["Parallax"]["position"]["centeringPosition"];
+        parallaxImage.style.left = t_jsonFile[readName][i]["Parallax"]["position"]["left"];
+      }
+      if (t_jsonFile[readName][i]['Parallax'].hasOwnProperty('overlay')) {
+        parallaxImage.style.marginTop = t_jsonFile[readName][i]["Parallax"]["overlay"]["top"];
+        parallaxImage.style.marginBottom = t_jsonFile[readName][i]["Parallax"]["overlay"]["bottom"];
+      }
+      else {
+        parallaxImage.style.marginTop = "5vw";
+        parallaxImage.style.marginBottom = "5vw";
+      }
       document.getElementById("clearWrapper").appendChild(parallaxImage);
     }
   }
@@ -100,30 +127,15 @@ function readJsonFile(t_jsonFile, readName) {
   //document.getElementById("Heading1").innerHTML = t_jsonFile["Heading"];
 }
 
-loadGame('HomeScreen');
-
-function clearNew()
-{
+function clearNew() {
   const node = document.getElementById("clearWrapper");
-  if(node === null){
+  if (node === null) {
     console.log("BODY COUDLNT BE FOUND");
     return;
   }
   while (node.firstChild) {
     node.removeChild(node.firstChild);
-    }
+  }
 }
 
 
-function openGitHub()
-{
-  window.open('https://github.com/Splashdamage115','_blank');
-}
-function openLinkedin()
-{
-  window.open('https://www.linkedin.com/in/david-strikaitis-59060b2a2/?trk=opento_sprofile_topcard','_blank');
-}
-function openEmail()
-{
-  window.open('mailto:davidstrik282@gmail.com');
-}

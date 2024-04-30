@@ -7,6 +7,47 @@ body{
   width: 80vw; 
   padding: 10vw;
 }
+
+ul{
+  list-style-type: none;
+}
+
+.listItemButton{
+  background-color: rgb(73, 0, 125);
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding:15px;
+  border-radius: 50%;
+  position: fixed;
+  left: 5vw;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.listItemButton:hover{
+  background-color: rgb(149, 0, 255);
+  transform: translateY(-2px);
+}
+
+.TimeLineItem:hover .timeLineContent {
+  display: grid;
+  background-color: transparent;
+  border: 2px solid rgb(73, 0, 125);
+  width: fit-content;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.timeLineContent
+{
+  text-align: left;
+  position: fixed;
+  display:none;
+  animation-fill-mode: backwards;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  left: 10vw;
+}
+
 body:hover
 {
   cursor: auto;
@@ -83,6 +124,8 @@ font-size: 64px;
     width: 100%;
 }
 
+
+/* - - Drop down menu used for the buttons - - */
 .dropdown {
   display: inline-block;
   position: fixed; 

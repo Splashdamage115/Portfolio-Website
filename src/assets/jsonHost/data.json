@@ -1,18 +1,4 @@
 {
-    "LevelTemplate": [{
-        "Heading": "My first game",
-        "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game",
-        "Img": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "alt": "Image of code", "size": {"width": "50%", "height": "50%"}},
-        "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo?si=BLLNkH8ngCUmg94B", "size": {"width": "50%", "height": "50%"}},
-        "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px"}}
-        },
-        {
-            "Heading": "My second game",
-            "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game"
-        }
-    ],
-
-
     "HomeScreen": [{
         "Heading": "Welcome to my website",
         "Text": "This is My website, welcome to it",
@@ -23,7 +9,24 @@
         },
         {
             "Heading": "Welcome to my website",
-        "Text": "This is My website, welcome to it"
+            "Text": "This is My website, welcome to it",
+            "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width": "80vw"}, "overlay": {"top": "10px", "bottom": "-250px"}}
+
+        }
+    ]
+    
+    ,
+
+    "LevelTemplate": [{
+        "Heading": "My first game",
+        "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game",
+        "Img": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "alt": "Image of code", "size": {"width": "50%", "height": "50%"}},
+        "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo?si=BLLNkH8ngCUmg94B", "size": {"width": "50%", "height": "50%"}},
+        "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width": "100vw"}, "position": {"left": "0px", "centeringPosition": "center"}, "overlay": {"top": "10px", "bottom": "-250px"}}
+        },
+        {
+            "Heading": "My second game",
+            "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game"
         }
     ]
 }

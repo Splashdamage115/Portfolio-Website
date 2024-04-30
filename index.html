@@ -14,7 +14,7 @@
 <body>
     <span id="BannerBox">     </span>
     <svg>
-        <text x="500px" y="0px" dy="200px" text-anchor="middle" onclick="loadGame('HomeScreen')">
+        <text id="home" x="500px" y="0px" dy="200px" text-anchor="middle">
             David Strikaitis
         </text>
     </svg>
@@ -24,7 +24,7 @@
             <button class="dropbtn">Projects</button>
             <div class="dropdown-content">
                 <button onclick="loadGame('LevelTemplate')">Template</button>
-                <button onclick="loadGame('HomeScreen')">HomeScreen</button>
+                <button onclick="loadTimeLine()">All Games</button>
             </div>
         </div>
 
@@ -39,9 +39,13 @@
         </div>
     </div>
 
-    <div id="clearWrapper"></div>
+    <div id="clearWrapper">
+
+    </div>
 
 </body>
-<script src="src/assets/js/script.js"></script>
-
+<script src="src/assets/js/loadContent.js"></script>
+<script src="src/assets/js/timeLine.js"></script>
+<script src="src/assets/js/spanContent.js"></script>
+<script>loadGame('HomeScreen');</script>
 </html>
