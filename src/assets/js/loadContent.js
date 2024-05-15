@@ -128,6 +128,7 @@ function readJsonFile(t_jsonFile, readName) {
 }
 
 function clearNew() {
+  animatingTimeLine = false;
   const node = document.getElementById("clearWrapper");
   if (node === null) {
     console.log("BODY COUDLNT BE FOUND");

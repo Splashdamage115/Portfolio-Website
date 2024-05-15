@@ -1,6 +1,6 @@
 {
     "info":[
-        {"name": "ZombieShooter", "displayName": "Zombie Shooter Game", "date": "04/2022", "gap":"140px"},
-        {"name": "Epsilon", "displayName": "Project Epsilon", "date": "11/2022", "gap":"250px"}
+        {"name": "ZombieShooter", "displayName": "Zombie Shooter Game", "date": "04/2022", "gap":"140px", "img":"src/assets/imgs/simpleExample.png"},
+        {"name": "Epsilon", "displayName": "Project Epsilon", "date": "11/2022", "gap":"250px", "img":"src/assets/imgs/me.png"}
     ]
 }

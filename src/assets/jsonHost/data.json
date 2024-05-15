@@ -11,7 +11,6 @@
             "Heading": "Welcome to my website",
             "Text": "This is My website, welcome to it",
             "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width": "80vw"}, "overlay": {"top": "10px", "bottom": "-250px"}}
-
         }
     ]
     
