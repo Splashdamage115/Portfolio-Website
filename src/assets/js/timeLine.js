@@ -28,7 +28,7 @@ function loadTimeLineContent(t_jsonFile)
     let ulItem = createElement('ul', { id:"List"});
     document.getElementById("timeLine").appendChild(ulItem);
     let bgBar = createElement('div', {id:"bgBar"});
-    bgBar.style.top =  "110px";
+    bgBar.style.top =  "120px";
     bgBar.style.height = "1200px";
     bgBar.style.width = "30px";
     document.getElementById("clearWrapper").appendChild(bgBar);
@@ -40,7 +40,10 @@ function loadTimeLineContent(t_jsonFile)
         let newLi = createElement('li', { class:"TimeLineItem"});
         let newLiContent = createElement('div', {class:"timeLineContent"},[t_jsonFile["info"][i]["displayName"], "<br>", t_jsonFile["info"][i]["date"]]);
         let newImage = createElement('img', {class:"timeLineImage", src: t_jsonFile["info"][i]["img"], width: "80px", height: "80px"});
-        let listItemButton = createElement('button', { class:"listItemButton"}, "");
+        let newDescription = createElement('p', {class:"timeLineDescription"}, t_jsonFile["info"][i]["description"]);
+
+        let listItemButton = createElement('button', { class:"listItemButton", onclick: ""}, "");
+
         listItemButton.style.top = t_jsonFile["info"][i]["gap"];
         newLiContent.style.top = t_jsonFile["info"][i]["gap"];
 
@@ -48,6 +51,7 @@ function loadTimeLineContent(t_jsonFile)
         newLi.appendChild(listItemButton);
 
         newLiContent.appendChild(newImage);
+        newLiContent.appendChild(newDescription);
 
         document.getElementById("List").appendChild(newLi);
     }
