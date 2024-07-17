@@ -2,8 +2,9 @@ let firstTime = true;
 
 // parse a new json web
 function loadGame(readName) {
+  animate = false;
   let url = 'src/assets/jsonHost/data.json';
-
+  console.log("Here");
   fetch(url).then((response) => {
     if (response.ok) {
       return response.json();
@@ -15,6 +16,11 @@ function loadGame(readName) {
       if (!firstTime) { clearNew(); }
       firstTime = false;
       readJsonFile(responseJson, readName);
+      window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+       });
     })
     .catch((error) => {
       console.log(error)

@@ -21,29 +21,51 @@
 </span>
 
 
-        <div class="dropdown">
-            <button class="dropbtn">Projects</button>
-            <div class="dropdown-content">
-                <button onclick="loadGame('LevelTemplate')">Template</button>
-                <button onclick="loadTimeLine()">All Games</button>
-            </div>
-        </div>
-
-    <div class="Contacts">
-        <div class="dropdown">
-            <button class="dropbtn">Contacts</button>
-            <div class="dropdown-content">
-                <button onclick="openGitHub()">GitHub</button>
-                <button onclick="openLinkedin()">Linkedin</button>
-                <button onclick="openEmail()">Email</button>
-            </div>
-        </div>
+<div class="dropdown">
+    <button class="dropbtn">Projects</button>
+    <div class="dropdown-content">
+        <button onclick="loadGame('LevelTemplate')">Template</button>
+        <button onclick="loadTimeLine()">All Games</button>
     </div>
+</div>
+
+<div class="Contacts">
+<div class="dropdown">
+    <button class="dropbtn">Contacts</button>
+    <div class="dropdown-content">
+        <button onclick="openGitHub()">GitHub</button>
+        <button onclick="openLinkedin()">Linkedin</button>
+        <button onclick="openEmail()">Email</button>
+    </div>
+</div>
+</div>
 
     <div id="clearWrapper">
 
     </div>
 
+    <div class="Footer">
+    <table>
+        <tr>
+        <th>
+        </th>
+        
+        <th>
+            <h1>Contacts:</h1>
+        </th>
+    </tr>
+    <tr><td>
+        <a class="LinkImage" onclick="openGitHub()">
+            <img src="src/assets/imgs/GitHub-Symbol.png" style="width: 6%;height: 6%;"/>
+        </a>
+
+        <a class="LinkImage" onclick="openLinkedin()">
+            <img src="src/assets/imgs/Linkedin-Symbol.png" style="width: 5%;height: 5%;"/>
+        </a></td><td><p>Email : davidstrik282@gmail.com</p></td></tr>
+    <tr><td></td><td><p>Phone : +353 89 223 5566</p></td></tr>
+    </table>
+        
+    </div>
 </body>
 <script src="src/assets/js/loadContent.js"></script>
 <script src="src/assets/js/timeLine.js"></script>

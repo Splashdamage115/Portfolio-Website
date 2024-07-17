@@ -10,10 +10,10 @@
         {
             "Heading": "Welcome to my website",
             "Text": "This is My website, welcome to it",
-            "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width": "80vw"}, "overlay": {"top": "10px", "bottom": "-250px"}}
+            "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px"}, "overlay": {"top": "10px", "bottom": "-250px"}}
         }
     ]
-    
+
     ,
 
     "LevelTemplate": [{
@@ -21,11 +21,36 @@
         "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game",
         "Img": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "alt": "Image of code", "size": {"width": "50%", "height": "50%"}},
         "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo?si=BLLNkH8ngCUmg94B", "size": {"width": "50%", "height": "50%"}},
-        "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width": "100vw"}, "position": {"left": "0px", "centeringPosition": "center"}, "overlay": {"top": "10px", "bottom": "-250px"}}
+        "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width":"50vw"}, "position": {"left": "0px", "centeringPosition": "left"}, "overlay": {"top": "10px", "bottom": "-250px"}}
         },
         {
             "Heading": "My second game",
             "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game"
         }
+    ]
+
+    ,
+
+    "GGJ23": [{
+        "Heading": "A root cause worth fighting 4",
+        "Text": "This was my first team project, that I brought from a terrible state, to a somewhat working state, by myself."
+    } ,
+    {
+        "Heading": "The Game",
+        "Text": "The game mainly consists of a simple menu system and a set of enemies that walk in from the right hand of the screen towards the player on the left, the player has a simple point and click bullet that they can defend themself with, and they lose the game if the enemy reaches the left hand of the screen.",
+        "Img": {"file": "src/assets/imgs/GGJ23 Menu.png", "alt": "Image of main menu", "size": {"width": "50%", "height": "50%"}},
+        "Video": {"file": "https://www.youtube.com/embed/hJf3YGWnjVk", "size": {"width": "80%", "height": "600px"}}
+    } ,
+    {
+        "Heading": "My contribution",
+        "Text":"Having learned how to make a console based calculator, to make a full on Game was a Huge step up. I was working in a group of 3 (including myself). I was mainly assigned the role of making assets in the game and working on the main menu. We ended up making the game within a space of 48 hours, including team introductions and planning. On the last day I ended up being left alone as my team couldnt attend the event."
+    },
+    {
+        "Text":"The game when it was left to me, had one type of enemy (as my team couldnt figure out how to make a flying one) no assets, and unfinished collision and damage systems, All of which I had to implement. This meant within the space of 3/4 hours I had to make a functional game."
+    },
+    {
+        "Heading": "What I Learned",
+        "Text":"During this event, due to me having to finish the game, I learned how to work under pressure. I also learned how to read code I had no understanding of, and understand it enough on how to fix it, improve it and how to implement new features."
+    }
     ]
 }

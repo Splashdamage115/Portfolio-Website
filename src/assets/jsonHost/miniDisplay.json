@@ -1,6 +1,5 @@
 {
     "info":[
-        {"name": "HomeScreen", "displayName": "Zombie Shooter Game", "date": "04/2022", "gap":"140px", "img":"src/assets/imgs/simpleExample.png", "description":"The First game i ever made"},
-        {"name": "Epsilon", "displayName": "Project Epsilon", "date": "11/2022", "gap":"250px", "img":"src/assets/imgs/me.png", "description":"Hey I know That Guy!!!"}
+        {"name": "GGJ23", "displayName": "Global Game Jam 2023", "date": "Feb/2023", "gap":"1180px", "img":"src/assets/imgs/SplashScreenGGJ23.png", "description":"The first Proper Game"}
     ]
 }

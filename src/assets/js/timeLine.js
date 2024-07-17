@@ -1,3 +1,8 @@
+let animate = false;
+// initialise the canvas object
+let canvas; 
+let context;
+
 function loadTimeLine() {
     let url = 'src/assets/jsonHost/miniDisplay.json';
   
@@ -20,9 +25,11 @@ function loadTimeLine() {
 
 function loadTimeLineContent(t_jsonFile)
 {
+    animate = false
     console.log("All of de Games");
 
     let newItem = createElement('section', {id: 'timeLine'});
+    
     document.getElementById("clearWrapper").appendChild(newItem);
 
     let ulItem = createElement('ul', { id:"List"});
@@ -42,7 +49,7 @@ function loadTimeLineContent(t_jsonFile)
         let newImage = createElement('img', {class:"timeLineImage", src: t_jsonFile["info"][i]["img"], width: "80px", height: "80px"});
         let newDescription = createElement('p', {class:"timeLineDescription"}, t_jsonFile["info"][i]["description"]);
 
-        let listItemButton = createElement('button', { class:"listItemButton", onclick: ""}, "");
+        let listItemButton = createElement('button', { class:"listItemButton", onclick: "loadGame('" + t_jsonFile["info"][i]["name"] + "')"}, "");
 
         listItemButton.style.top = t_jsonFile["info"][i]["gap"];
         newLiContent.style.top = t_jsonFile["info"][i]["gap"];
@@ -55,4 +62,37 @@ function loadTimeLineContent(t_jsonFile)
 
         document.getElementById("List").appendChild(newLi);
     }
+
+    newItem = createElement('h1', {}, "Time Line For All My Main Projects");
+    document.getElementById("clearWrapper").appendChild(newItem);
+    newItem = createElement('p', {}, "(See Projects on left, and click to enter Project)");
+    document.getElementById("clearWrapper").appendChild(newItem);
+
+    newItem = createElement('video', {autoplay:"true",loop:"true", width:"80%"});
+    newItem.appendChild(createElement('source', {src:"src/assets/imgs/Render.mp4", type:"video/mp4"}))
+    document.getElementById("clearWrapper").appendChild(newItem);
+
+    newItem = createElement('p', {} ,'<br>');
+    document.getElementById("clearWrapper").appendChild(newItem);
+
+    newItem = createElement('canvas', {id:"the_canvas"}, "oops! it looks like your browser doesnt support canvas!")
+    document.getElementById("clearWrapper").appendChild(newItem);
+    canvas = document.getElementById("the_canvas");
+    context  = canvas.getContext("2d");
+
+    animate = true;
+    animateMenuItems();
 }
+
+
+function animateMenuItems()
+{
+    update();
+    render();
+    if(animate)
+    {
+    window.requestAnimationFrame(animateMenuItems);
+  }
+}
+
+
