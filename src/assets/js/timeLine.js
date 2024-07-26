@@ -68,19 +68,20 @@ function loadTimeLineContent(t_jsonFile)
     newItem = createElement('p', {}, "(See Projects on left, and click to enter Project)");
     document.getElementById("clearWrapper").appendChild(newItem);
 
-    newItem = createElement('video', {autoplay:"true",loop:"true", width:"80%"});
-    newItem.appendChild(createElement('source', {src:"src/assets/imgs/Render.mp4", type:"video/mp4"}))
-    document.getElementById("clearWrapper").appendChild(newItem);
-
-    newItem = createElement('p', {} ,'<br>');
-    document.getElementById("clearWrapper").appendChild(newItem);
-
     newItem = createElement('canvas', {id:"the_canvas"}, "oops! it looks like your browser doesnt support canvas!")
     document.getElementById("clearWrapper").appendChild(newItem);
     canvas = document.getElementById("the_canvas");
     context  = canvas.getContext("2d");
 
     animate = true;
+    
+    newItem = createElement('p', {} ,'<br>');
+    document.getElementById("clearWrapper").appendChild(newItem);
+
+    newItem = createElement('video', {autoplay:"true",loop:"true", width:"80%"});
+    newItem.appendChild(createElement('source', {src:"src/assets/imgs/Render.mp4", type:"video/mp4"}))
+    document.getElementById("clearWrapper").appendChild(newItem);
+
     animateMenuItems();
 }
 

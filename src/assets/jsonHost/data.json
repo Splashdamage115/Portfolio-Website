@@ -49,8 +49,28 @@
         "Text":"The game when it was left to me, had one type of enemy (as my team couldnt figure out how to make a flying one) no assets, and unfinished collision and damage systems, All of which I had to implement. This meant within the space of 3/4 hours I had to make a functional game."
     },
     {
-        "Heading": "What I Learned",
+         "Heading": "What I Learned",
         "Text":"During this event, due to me having to finish the game, I learned how to work under pressure. I also learned how to read code I had no understanding of, and understand it enough on how to fix it, improve it and how to implement new features."
-    }
+   }
+    ]
+    ,
+
+    "CraftingGame": [{
+        "Heading": "Crafting Game",
+        "Text": "The spring interactive project that I went above and beyond on.",
+        "Parallax": {"file": "src/assets/imgs/CraftingGameScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+    },
+    {
+        "Heading": "My Work",
+        "Text" : "In this project the original task was simple, to create a simple system that changes something on the screen. I decided that Id make a full crafting system. "
+    },
+    {
+        "Heading": "What I Learned",
+        "Text":"During this project I learned of the intricacies of making systems that can be adapted to different games and have a modular design which reacts to the user and creates what the player should expect."
+     },
+     {
+        "Heading": "Basic Demo: ",
+        "Video": {"file": "https://www.youtube.com/embed/ctGrYI9MGwg", "size": {"width": "80%", "height": "600px"}}
+     }
     ]
 }
