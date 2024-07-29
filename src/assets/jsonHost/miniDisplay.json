@@ -1,6 +1,7 @@
 {
     "info":[
         {"name": "GGJ23", "displayName": "Global Game Jam 2023", "date": "Feb/2023", "gap":"1180px", "img":"src/assets/imgs/SplashScreenGGJ23.png", "description":"The first Proper Game"} ,
-        {"name": "CraftingGame", "displayName": "Crafting Game", "date": "Mar/2023", "gap":"1080px", "img":"src/assets/imgs/pickaxe.png", "description":"The crafting project"}
+        {"name": "ZombieShooter", "displayName": "Zombie Shooter Game", "date": "Feb/Mar /2023", "gap":"1080px", "img":"src/assets/imgs/OriginalZombieShooterImg.png", "description":"The Wave Based Game"} ,
+        {"name": "CraftingGame", "displayName": "Crafting Game", "date": "Mar/April /2023", "gap":"980px", "img":"src/assets/imgs/pickaxe.png", "description":"The crafting project"}
     ]
 }

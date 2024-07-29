@@ -73,7 +73,7 @@ td {
   border-radius: 50%;
   position: absolute;
  left:20px;
-  
+ cursor: pointer;
   z-index: 0;
 }
 
@@ -101,6 +101,7 @@ td {
 
 /* - - Change the timeline box sizes here - - */
 .TimeLineItem:hover .timeLineContent {
+  cursor: pointer;
   background-color: #242124;
     border: 2px solid rgb(73, 0, 125);
     color:white;

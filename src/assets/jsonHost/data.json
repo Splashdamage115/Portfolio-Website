@@ -61,6 +61,10 @@
         "Parallax": {"file": "src/assets/imgs/CraftingGameScreenShot.png", "size": {"height": "500px", "width": "100%"}}
     },
     {
+        "Heading": "The Game",
+        "Text": "This game is a simple demonstration of a crafting game in which the main goal is to craft a pickaxe. This was the first time i experimented with Arrays of Objects, and it is possible to see that some object cards dissapear after you craft a new item, At this point I didnt know how to fix this issue."
+    } ,
+    {
         "Heading": "My Work",
         "Text" : "In this project the original task was simple, to create a simple system that changes something on the screen. I decided that Id make a full crafting system. "
     },
@@ -71,6 +75,28 @@
      {
         "Heading": "Basic Demo: ",
         "Video": {"file": "https://www.youtube.com/embed/ctGrYI9MGwg", "size": {"width": "80%", "height": "600px"}}
+     }
+    ] ,
+    "ZombieShooter": [{
+        "Heading": "Zombie Shooter Survival",
+        "Text": "A personal Project, Which Ive tried more than once to perfect",
+        "Parallax": {"file": "src/assets/imgs/OriginalZombieShooterScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+    },
+    {
+        "Heading" : "Image Above",
+        "Text" : "The image above is a basic showing of how the game looks in debug mode, the black lines representing the enemies movement path, The red line representing the vector to the cursor (shoot path), and the blue line showing the explosive enemies move line."
+    },
+    {
+        "Heading": "The Game",
+        "Text": "This game has a lot to unpack. So, to begin with it has a functional wave system of spawning enemies in ramping difficulty, Explosive enemies that explode when they are close enough to you causing immense damage to both the player, and other enemies, but they run on screen and wait for 3 seconds before running at you giving you some time to react to them, So kill them quick before they start running. A basic Enemy that runs at you and also damages you with a health pool and different random speeds, a damage system involving collisions between player / enemies, bullet collision system with enemy and a reload mechanism for the basic weapon that the player wields."
+    },
+    {
+        "Heading": "What I Learned",
+        "Text":"During this game I learned what it takes to make many complex systems. I had so many things That I wanted to do, but it all came together to making a game that felt Fun, and rewarding for the player."
+     },
+     {
+        "Heading": "Basic Demo: ",
+        "Video": {"file": "https://www.youtube.com/embed/paQ-atpKDac", "size": {"width": "80%", "height": "600px"}}
      }
     ]
 }
