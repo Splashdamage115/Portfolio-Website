@@ -1,7 +1,8 @@
 {
     "info":[
-        {"name": "GGJ23", "displayName": "Global Game Jam 2023", "date": "Feb/2023", "gap":"1180px", "img":"src/assets/imgs/SplashScreenGGJ23.png", "description":"The first Proper Game"} ,
-        {"name": "ZombieShooter", "displayName": "Zombie Shooter Game", "date": "Feb/Mar /2023", "gap":"1080px", "img":"src/assets/imgs/OriginalZombieShooterImg.png", "description":"The Wave Based Game"} ,
-        {"name": "CraftingGame", "displayName": "Crafting Game", "date": "Mar/April /2023", "gap":"980px", "img":"src/assets/imgs/pickaxe.png", "description":"The crafting project"}
+        {"name": "GGJ23", "displayName": "Global Game Jam 2023", "date": "Feb/2023", "gap":"1285px", "img":"src/assets/imgs/SplashScreenGGJ23.png", "description":"The first Proper Game"} ,
+        {"name": "ZombieShooter", "displayName": "Zombie Shooter Game", "date": "Feb/Mar /2023", "gap":"1185px", "img":"src/assets/imgs/OriginalZombieShooterImg.png", "description":"The Wave Based Game"} ,
+        {"name": "CraftingGame", "displayName": "Crafting Game", "date": "Mar/April /2023", "gap":"1085px", "img":"src/assets/imgs/pickaxe.png", "description":"The crafting project"},
+        {"name": "TileZombies", "displayName": "The Zombie Shooter Project", "date": "April /2023", "gap":"985px", "img":"src/assets/imgs/ZombieShooter2.png", "description":"The First Collisions Experiment"}
     ]
 }

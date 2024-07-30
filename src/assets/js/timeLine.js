@@ -36,7 +36,7 @@ function loadTimeLineContent(t_jsonFile)
     document.getElementById("timeLine").appendChild(ulItem);
     let bgBar = createElement('div', {id:"bgBar"});
     bgBar.style.top =  "120px";
-    bgBar.style.height = "1200px";
+    //bgBar.style.height = "1200px";
     bgBar.style.width = "30px";
     document.getElementById("clearWrapper").appendChild(bgBar);
 

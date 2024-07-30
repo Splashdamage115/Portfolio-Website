@@ -98,5 +98,24 @@
         "Heading": "Basic Demo: ",
         "Video": {"file": "https://www.youtube.com/embed/paQ-atpKDac", "size": {"width": "80%", "height": "600px"}}
      }
+    ] ,
+    "TileZombies": [
+        {
+            "Heading": "Zombie Shooter Project",
+            "Text": "Soon after I finished my first project, I found out that what I had done was to be an assignment for my Programming Class.",
+            "Parallax": {"file": "src/assets/imgs/ZombieShooter2Screen.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "This game consists of some similar principles to the previous zombie game, such as waves, runner zombies, bullets, bullet collisions and enemy health. This one however has been built from the ground up to follow some of the project guidlines. These guidlines were simple, the game must have 2 enemies, player loss condition and a main menu. This project was going on at a similar time to another big project so I had a lot on my plate. I still however managed to explore some new sytems that I had been thinking about. This game contains my first experience with complex collisions between obstacles, A main staple in more or less every game . . . Ever. This collision system was not in the project brief but I believed it to be a good idea to try to make for the fun of it. The second enemy also has some quite complex logic, It finds the furthest corner from the player on the obstacle closest to it, and then walks straight to it and begins shooting at the player, This makes the game extremely difficult and hard to achieve a high score on. There too is an Instruction screen, animated assets, enemy health bars, player health bar, a more complex and fun wave system. The main piece that I learned from this still being the complex collision system with the obstacle which pushes the player out of the obstacle in the current direction of travel. This system I came to find is common in many collision systems, but one that I had come up with on my own at the time."
+        },
+        {
+            "Heading": "What I Learned",
+            "Text":"Collisions. The main grasp I got was the complex system known as movement collisions. I also managed a lot of time management as I was working on 3 other projects at the same time as this one which is further outlined in the Joint Project."
+         },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/1U9aHqbmdMQ", "size": {"width": "80%", "height": "600px"}}
+         }
     ]
 }
