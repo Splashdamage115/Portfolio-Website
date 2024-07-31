@@ -1,5 +1,9 @@
 let firstTime = true;
 
+function loadPage(readName) {
+  window.open(readName, '_blank');
+}
+
 // parse a new json web
 function loadGame(readName) {
   animate = false;
@@ -92,6 +96,15 @@ function readJsonFile(t_jsonFile, readName) {
         height: t_jsonFile[readName][i]["Img"]["size"]["height"]
       });
       document.getElementById("clearWrapper").appendChild(Image);
+    }
+
+    if (t_jsonFile[readName][i].hasOwnProperty('Button')) {
+      let Button = createElement('button', {
+        onclick: "loadPage('" + t_jsonFile[readName][i]["Button"]["Link"] + "')",
+        class: "LinkButton"
+      }, 
+      t_jsonFile[readName][i]["Button"]["Text"]);
+      document.getElementById("clearWrapper").appendChild(Button);
     }
 
     // Parsing of the Video properties

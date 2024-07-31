@@ -144,5 +144,55 @@
             "Heading": "Basic Demo: ",
             "Video": {"file": "https://www.youtube.com/embed/Sw1jbowbCrU", "size": {"width": "80%", "height": "600px"}}
          }
+    ] ,
+    "WalledZombies" : [
+        {
+            "Heading": "Another Zombie Game",
+            "Text": "The zombie game with no zombies, But with some complicated technoligies",
+            "Parallax": {"file": "src/assets/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "The 'game' here (if you can call it that) was a very well documented tech demo of a few big things. A new more Advanced collision system, This collision system used a future positioning technique to see if the player will be inside an object, and if it will, it stops movement, This too was a Technique I thought up. There was a nice wall spawning system that would have scaled very well (if I continued on the project) as it was very simple to use, taking 4 inputs, 2 positions, and 2 size coordinates. There are also doors, which were all fully functional and easy to implement also, taking the same 4 as walls, and also cost, and open position. There were also weapon purchasing systems which took into account the current weapon, and either gaver you the weapon as a new weapon (replacing held one) or refilling the ammo stockpile. The weapons also had a very intuitive system which made it possible to easily, and quickly make new weapons."
+           },
+           {
+            "Heading": "Workflow",
+            "Text": "In this project I tried to optimise my workflow of task, whats to be done, what is done, and what is yet to be done. This skill itself helped me finish many future projects to a high degree, in a good flow as opposed to doing cowboy coding."
+           },
+        {
+            "Heading": "What I Learned",
+            "Text": "In this project, I learned a lot about scalability, making code in a way to make it easy to expand later, making the code easy to update, and easy to add new features into / make levels out of. I also learned many complex mechanisms for coding, and improved my general Knowledge a looooot."
+           },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/fKTsYIJHiZk", "size": {"width": "80%", "height": "600px"}}
+         }
+    ] ,
+    "UIProject" : [
+        {
+            "Heading": "~Name~",
+            "Text": "~Short Description~",
+            "Parallax": {"file": "src/assets/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Button": {"Link": "https://www.google.com", "Text" : "Link To Google"}
+           },
+        {
+            "Heading": "The Game Description",
+            "Text": ""
+           },
+           {
+            "Heading": "Workflow",
+            "Text": ""
+           },
+        {
+            "Heading": "What I Learned",
+            "Text": ""
+           },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/fKTsYIJHiZk", "size": {"width": "80%", "height": "600px"}}
+         }
     ]
 }
