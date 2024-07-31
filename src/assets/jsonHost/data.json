@@ -117,5 +117,32 @@
             "Heading": "Basic Demo: ",
             "Video": {"file": "https://www.youtube.com/embed/1U9aHqbmdMQ", "size": {"width": "80%", "height": "600px"}}
          }
+    ],
+    "DungeonAdventure": [
+        {
+            "Heading": "The Dungeon Adventure",
+            "Text": "The Project with Many moving parts, where I did most of the coding.",
+            "Parallax": {"file": "src/assets/imgs/DungeonAdventureProject.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "During this game I followed a Design Document for the creation. The game consists of 2 levels and 4 mini games which you must complete before you run out of lives (working lives system). There is a scrolling maze, clicker puzzle, spot the difference, and riddle. The game also involves a working shop which has working potions(useable in game) An upgraded sword, and a pickaxe which alows the player to exit a level immediately (without solving puzzles). There is also an enemy system where they approach you to try stop you from doing puzzles when you get too close. there is also a Working sword to defend yourself from the enemies. This complex game was unfortunately unfinshed in some small aspects. This huge game was the most complex game from our year."
+           },
+           {
+            "Heading": "Puzzles",
+            "Text": "The maze was the most complex Coding challenge, as it had a tile system for the walls of the level, a scrolling level (we had not learned this yet, and I was not aware of views, so I did reverse object movement) This also involved a more refined version of collision system I used in my second zombie game. The riddle game had an implementation designed for ease of use to create new levels. The clicker puzzle was a way of making some cash. The spot the difference puzzle is a fun little challenge for the player."
+           },
+        {
+            "Heading": "My Role",
+            "Text": "My role was to do most of the programming, the only aspects I had not done were the asset implementation, the clicker puzzle, and the spot the difference. I spent a lot of time making a fully functional shop with an implemented inventory system for it. I ended up with over 60% project contribution (A lot was going for art, which I was not doing)."
+           },
+        {
+            "Heading": "What I Learned",
+            "Text": "That sometimes in a project, the last 5% makes the game about 50% better, as the game would be more finished anda much more enjoyable experience for the player. I also learned that I should add more comments if Im working on a group Project, as I recieved many complaints of complicated code, which mainly happened because I had Waaaaaaay to many very complex systems to do, in a short amount of time."
+           },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/Sw1jbowbCrU", "size": {"width": "80%", "height": "600px"}}
+         }
     ]
 }
