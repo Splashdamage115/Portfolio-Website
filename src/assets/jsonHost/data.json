@@ -170,29 +170,103 @@
     ] ,
     "UIProject" : [
         {
-            "Heading": "~Name~",
-            "Text": "~Short Description~",
-            "Parallax": {"file": "src/assets/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+            "Heading": "Time Void",
+            "Text": "The multiplayer strategy game that will challenge your mind, and your cunning.",
+            "Parallax": {"file": "src/assets/imgs/TimeVoidScreenshot.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
-            "Heading": "The Game",
-            "Button": {"Link": "https://www.google.com", "Text" : "Link To Google"}
+            "Heading": "Genre",
+            "Text": "Strategy, Multiplayer, PvP, Mobile-friendly"
            },
         {
+            "Heading": "The Game",
+            "Button": {"Link": "https://splashdamage115.github.io/TimeVoidGame/", "Text" : "Link to the Game"}
+           },
+           
+        {
             "Heading": "The Game Description",
-            "Text": ""
+            "Text": "The game pits 2 players against eachother in either wireless online play, or local pass and play, play. The player starts with a few options, to change time, change player(in local play), end (or submit) turn, to end the turn, or to interact with a tile. The first interaction is to place one of 3 types of character, a shield character, a bow character or a sword character. Each with a unique Ability." ,
+            "Img": {"file": "src/assets/imgs/TimeVoidCharacters.png", "alt": "Image Character abilities", "size": {"width": "50%", "height": "50%"}}
+        },
+           {
+            "Text": "The player is to use these abilities intelligently to beat the opponent. The other option is after finishing a turn and a character is placed is to either attack with the character, defend with them, or move with them. Every character on the field can do an action every turn.Time travel each player can go to the past (or back to the future) with a 2 turn cooldown between changes. This means that the player must be smart with switches to either control all the tiles in the future or the past. This game requires a lot of thinking and planning to beat the other player."
+           },
+           {
+            "Heading": "The Game",
+            "Text": "In this project I made all of the assets, and all of the programming. I used a library to assist with tcp/udp connection for the server side of hosting / peer."
            },
            {
             "Heading": "Workflow",
-            "Text": ""
-           },
+            "Text": "Throughout this project I had a strict list of things I had to do. I then worked through them one by one and marked off each with a tick or different pointers of progress. This helped me keep track of where I was in the project and how much I had left to do. This allowed me to time manage each part of the project and keep ahead of the rather tight deadline.",
+            "Img": {"file": "src/assets/imgs/TimeVoidWorkFlow.png", "alt": "Image of workflow indicators", "size": {"width": "50%", "height": "50%"}} 
+        },
         {
             "Heading": "What I Learned",
-            "Text": ""
+            "Text": "I learned many time management skills and Prioritisation skills. I learned a lot about online connections and game flow things. This game required a lot of polish so that it would have no bugs and rather smooth flow for the game."
+           },
+           {
+            "Heading": "What I would Improve",
+            "Text": "The biggest thing this game is missing is animations and more feedback to the player. A simple sound track would also make the game much more enjoyable and relaxing to play. I would also try to add level layout variety to make it mnore interesting."
            },
          {
             "Heading": "Basic Demo: ",
-            "Video": {"file": "https://www.youtube.com/embed/fKTsYIJHiZk", "size": {"width": "80%", "height": "600px"}}
+            "Video": {"file": "https://www.youtube.com/embed/J_enKbdDpZ8", "size": {"width": "80%", "height": "600px"}}
          }
+    ],
+    "ASSembleyCalculator": [
+        {
+            "Heading" : "Assembely calculator",
+            "Text" : "Known as the worst language to code in"
+        }
+        ,
+        {
+            "Heading" : "The project",
+            "Text": "The calculator functions very similarly to that of a standard Computer calculator. This one however is made in the good old language of binary. Programmed for the motorola 6800, This calculator includes some basic feedback with tile illumination of which is highlighted and display system at the top."
+        },
+        {
+            "Img": {"file": "src/assets/imgs/AssemblyCalculator.png", "alt": "Image of the assembely calculator", "size": {"width": "100%", "height": "100%"}} 
+        },
+        {
+            "Text" : "The main thing around this calculator was the focus on the UI elements, Making them useable and easy to access, They are a standard reflection of any calculator people use on any other system."
+        },
+        {
+            "Heading" : "Reality",
+            "Text" : "In reality, nobody would use this calculator, it only has single character operations (10 + 10 is not possible) no negatives and is on an obsolete system. So nobody would in reality ever use this."
+        },
+        {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/7vXFMnRXXp0", "size": {"width": "80%", "height": "600px"}}
+        }
+    ] ,
+    "BlindWatchers": 
+    [
+        {
+            "Heading" : "Blind Watchers",
+            "Text" : "Does the world exist if nobody Sees it?",
+            "Img": {"file": "src/assets/imgs/BlindWatchersScreenshot.png", "alt": "Image Of Home Screen of blind Watchers", "size": {"width": "75%", "height": "75%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "This game has a Very simple premise, Collect Drugs, and shoot them at the patients."
+        },
+        {
+            "Text": "Simple but many different aspects are in here, A fuull level editor, pill collection, collection bars, patrolling enemies, enemy detection system. Since The enemies are blind and you have to avoid them until you have their medication, you have to stay out of their walking sticks, or theyll chase you. Unfortunately they can smell the pills on you. So when you have them all... RUN!"
+        },
+        {
+            "Text": "This game has a nice particle effect system, fireworks when you win, a complex Cone based detection system, spatial partition for the level and a character selection screen.",
+            "Img": {"file": "src/assets/imgs/BlindWatchersScreenshot2.png", "alt": "Blind man gets shot.", "size": {"width": "50%", "height": "50%"}}
+        },
+        {
+            "Heading": "My Role",
+            "Text": "During this project my main role was working on gameplay aspects, while my partner worked on the level Editor. I made the integration of the level editor output files into the game. I also worked on the different characters, the particle system and the collision detection / vision cone."
+        } ,
+        {
+            "Heading" : "What I Learned",
+            "Text" : "I learned that many systems if made well can be reused a lot across the game. For instance the particle sytem made for nice 'health' splatter and for nice fireworks for when you win the game."
+        } ,
+        {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/Nl5NQ1MqySA", "size": {"width": "80%", "height": "600px"}}
+        }
     ]
 }
