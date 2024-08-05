@@ -1,16 +1,29 @@
 {
     "HomeScreen": [{
-        "Heading": "Welcome to my website",
-        "Text": "This is My website, welcome to it",
-        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "500px"}}
+        "Heading": "Welcome",
+        "Text": "A time line of some of my games can be found under 'Projects' followed by 'all games'",
+        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "300px"}}
         },
         {
-            "Text": "Game design has been my passion for many years, and continues to be, and its one passion i cannot throw away or discard"
+            "Heading" : "Languages",
+            "Text": "I am a Game developer and Software Developer with vast experience in C/C++, Python, Javascript(html/css), Assembely and other languages",
+            "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px"}}
         },
         {
-            "Heading": "Welcome to my website",
-            "Text": "This is My website, welcome to it",
-            "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px"}, "overlay": {"top": "10px", "bottom": "-250px"}}
+            "Heading": "My Passion",
+            "Text": "I am a game designer who has won many game awards in previous years! Game design, general programming(and game programming) and art are all areas of programming that I never stop researching or doing."
+        },
+        {
+            "Heading" : " ",
+            "Text": "I also made this Website from scratch using js, css & html!"
+        },
+        {
+            "Heading" : "Education",
+            "Text": "I currently study at Setu Carlow in the 'computer games development' course, Where I recieve high average grades. I also did computer science in secondary school, and I spend a lot of my free time programming or researching about programming."
+        },
+        {
+            "Heading": "Please Contact Me",
+            "Text": "My details can be found in the 'Contacts' Tab or at the bottom of the page"
         }
     ]
 
@@ -268,5 +281,89 @@
             "Heading": "Basic Demo: ",
             "Video": {"file": "https://www.youtube.com/embed/Nl5NQ1MqySA", "size": {"width": "80%", "height": "600px"}}
         }
+    ],
+    "TankGame": [
+        {
+            "Heading": "Tank Game",
+            "Text": "This game has so many little features, and in depth algorithms and would be the perfect base for a fulll game.",
+            "Img": {"file": "src/assets/imgs/TankGameScreenshot.png", "alt": "Tank Game screenshot", "size": {"width": "75%", "height": "75%"}}
+        },
+        {
+             "Heading": "The Game",
+            "Text": "Destroy all the targets in the alotted time"
+        },
+        {
+           "Text": "Different damage states for the tank (turret rotation, hard turn left, constant drive, and destroyed), Controller Input(with 2 controller input at the same time), Bullet wall collision and enemy collision, complex ai that gets progressively more difficult, A goal for the player to complete (kill 10 enemies within 60 seconds), A scrolling screen level, accurate movement collision with the walls for the tank, arrows to point out the enemies location, accuracy tracker, level editor and level loader and a split screen versus game mode."
+        },
+        {
+            "Heading" : "What I Learned",
+            "Text" : "I learned a lot about a lot of different systems and how they all function together and how many interesting complex systems can come together to create a Fun and engaging game for the player. I learned in depth how all the systems (listed above) function programmatically and that improved my programming knowledge around them."
+        } ,
+        {
+            "Heading": "Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/5wuxIpmjC5E", "size": {"width": "80%", "height": "600px"}}
+        }
+    ],
+    "StarBean": 
+    [
+        {
+            "Heading": "Star Bean",
+            "Text": "Ever wanted to be a barista? Here is your best chance",
+            "Parallax": {"file": "src/assets/imgs/StarBeanPoster.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "Genre",
+            "Text": "Simulator, Action, Puzzle"
+           },
+           {
+            "Heading": "Awards",
+            "Text": "2024 GAMES FLEADH AWARD FOR BEST UI"
+           },
+           {
+            "Text": "2024 GAMES FLEADH AWARD FOR BEST MUSIC"
+           },
+        {
+            "Heading": "The Game",
+            "Button": {"Link": "https://splashdamage935.itch.io/star-bean", "Text" : "Download Here"}
+           },
+           
+        {
+            "Heading": "The Game Description",
+            "Text": "Welcome to the space simulator where you take orders from Your clients and make sure that you do them correctly. Dont mess them up, the customers dont like that!" ,
+            "Img": {"file": "src/assets/imgs/StarBeanScreenshot.png", "alt": "Screenshot of customer ordering a drink", "size": {"width": "50%", "height": "50%"}}
+        },
+           {
+            "Text": "With unique sound design, Intuitive interface design, Youre sure to have a fun time fulfilling the customers orders."
+           },
+           {
+            "Heading": "Trailer: ",
+            "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo", "size": {"width": "80%", "height": "400px"}}
+         },
+           {
+            "Heading": "The Game",
+            "Text": "This game contained A lot of polish, a very well thought out and useable design for the UI that went through many iterations, A tutorial system with sparkles leading the player through how to play the game. The game features amazing original sound design and Music."
+           },
+           {
+            "Heading": "My Role",
+            "Text": "I was the project lead during this Project."
+        },
+        {
+            "Text": "I was the lead programmer also doing much of the programming. I created most of the Original demo of the game. I designed the game throughout the project following an Agile methodology. I directed all team members on what was required for each day and the priorities for that day. I created the trailer and the different ierations of it."
+        },
+        {
+            "Heading": "What I Learned",
+            "Text": "I learned many different leadership priorities. I learned to prioritise the most important parts for the project. I learned so much throughout this project that I could write a book on this one Project alone."
+        },
+        {
+            "Heading": "Gameplay: ",
+            "Video": {"file": "https://www.youtube.com/embed/zcH4fpvmKMY", "size": {"width": "80%", "height": "400px"}}
+        },
+        {
+            "Video": {"file": "https://www.youtube.com/embed/Bi3v-EC3PQc", "size": {"width": "80%", "height": "400px"}}
+        },
+        {
+            "Video": {"file": " https://www.youtube.com/embed/65CtvSVyymA", "size": {"width": "80%", "height": "400px"}}
+        }
+       
     ]
 }
