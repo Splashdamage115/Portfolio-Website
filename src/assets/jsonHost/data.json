@@ -6,7 +6,7 @@
         },
         {
             "Heading" : "Languages",
-            "Text": "I am a Game developer and Software Developer with vast experience in C/C++, Python, Javascript(html/css), Assembely and other languages",
+            "Text": "I am a Game developer and Software Developer with vast experience in C/C++, Python, Javascript(html/CSS), Assembly and other languages",
             "Parallax": {"file": "src/assets/imgs/CodeScreen.jpg", "size": {"height": "500px"}}
         },
         {
@@ -15,11 +15,11 @@
         },
         {
             "Heading" : " ",
-            "Text": "I also made this Website from scratch using js, css & html!"
+            "Text": "I also made this Website from scratch using js, CSS & html!"
         },
         {
             "Heading" : "Education",
-            "Text": "I currently study at Setu Carlow in the 'computer games development' course, Where I recieve high average grades. I also did computer science in secondary school, and I spend a lot of my free time programming or researching about programming."
+            "Text": "I currently study at Setu Carlow in the 'computer games development' course, Where I receive high average grades. I also did computer science in secondary school, and I spend a lot of my free time programming or researching about programming."
         },
         {
             "Heading": "Please Contact Me",
@@ -59,7 +59,7 @@
         "Text":"Having learned how to make a console based calculator, to make a full on Game was a Huge step up. I was working in a group of 3 (including myself). I was mainly assigned the role of making assets in the game and working on the main menu. We ended up making the game within a space of 48 hours, including team introductions and planning. On the last day I ended up being left alone as my team couldnt attend the event."
     },
     {
-        "Text":"The game when it was left to me, had one type of enemy (as my team couldnt figure out how to make a flying one) no assets, and unfinished collision and damage systems, All of which I had to implement. This meant within the space of 3/4 hours I had to make a functional game."
+        "Text":"The game when it was left to me, had one type of enemy (as my team couldn't figure out how to make a flying one) no assets, and unfinished collision and damage systems, All of which I had to implement. This meant within the space of 3/4 hours I had to make a functional game."
     },
     {
          "Heading": "What I Learned",
@@ -75,7 +75,7 @@
     },
     {
         "Heading": "The Game",
-        "Text": "This game is a simple demonstration of a crafting game in which the main goal is to craft a pickaxe. This was the first time i experimented with Arrays of Objects, and it is possible to see that some object cards dissapear after you craft a new item, At this point I didnt know how to fix this issue."
+        "Text": "This game is a simple demonstration of a crafting game in which the main goal is to craft a pickaxe. This was the first time I experimented with Arrays of Objects, and it is possible to see that some object cards disappear after you craft a new item, At this point I didn't know how to fix this issue."
     } ,
     {
         "Heading": "My Work",
@@ -92,7 +92,7 @@
     ] ,
     "ZombieShooter": [{
         "Heading": "Zombie Shooter Survival",
-        "Text": "A personal Project, Which Ive tried more than once to perfect",
+        "Text": "A personal Project, Which I've tried more than once to perfect",
         "Parallax": {"file": "src/assets/imgs/OriginalZombieShooterScreenShot.png", "size": {"height": "500px", "width": "100%"}}
     },
     {
@@ -120,7 +120,7 @@
         },
         {
             "Heading": "The Game",
-            "Text": "This game consists of some similar principles to the previous zombie game, such as waves, runner zombies, bullets, bullet collisions and enemy health. This one however has been built from the ground up to follow some of the project guidlines. These guidlines were simple, the game must have 2 enemies, player loss condition and a main menu. This project was going on at a similar time to another big project so I had a lot on my plate. I still however managed to explore some new sytems that I had been thinking about. This game contains my first experience with complex collisions between obstacles, A main staple in more or less every game . . . Ever. This collision system was not in the project brief but I believed it to be a good idea to try to make for the fun of it. The second enemy also has some quite complex logic, It finds the furthest corner from the player on the obstacle closest to it, and then walks straight to it and begins shooting at the player, This makes the game extremely difficult and hard to achieve a high score on. There too is an Instruction screen, animated assets, enemy health bars, player health bar, a more complex and fun wave system. The main piece that I learned from this still being the complex collision system with the obstacle which pushes the player out of the obstacle in the current direction of travel. This system I came to find is common in many collision systems, but one that I had come up with on my own at the time."
+            "Text": "This game consists of some similar principles to the previous zombie game, such as waves, runner zombies, bullets, bullet collisions and enemy health. This one however has been built from the ground up to follow some of the project guidelines. These guidelines were simple, the game must have 2 enemies, player loss condition and a main menu. This project was going on at a similar time to another big project so I had a lot on my plate. I still however managed to explore some new systems that I had been thinking about. This game contains my first experience with complex collisions between obstacles, A main staple in more or less every game . . . Ever. This collision system was not in the project brief but I believed it to be a good idea to try to make for the fun of it. The second enemy also has some quite complex logic, It finds the furthest corner from the player on the obstacle closest to it, and then walks straight to it and begins shooting at the player, This makes the game extremely difficult and hard to achieve a high score on. There too is an Instruction screen, animated assets, enemy health bars, player health bar, a more complex and fun wave system. The main piece that I learned from this still being the complex collision system with the obstacle which pushes the player out of the obstacle in the current direction of travel. This system I came to find is common in many collision systems, but one that I had come up with on my own at the time."
         },
         {
             "Heading": "What I Learned",
@@ -139,7 +139,7 @@
         },
         {
             "Heading": "The Game",
-            "Text": "During this game I followed a Design Document for the creation. The game consists of 2 levels and 4 mini games which you must complete before you run out of lives (working lives system). There is a scrolling maze, clicker puzzle, spot the difference, and riddle. The game also involves a working shop which has working potions(useable in game) An upgraded sword, and a pickaxe which alows the player to exit a level immediately (without solving puzzles). There is also an enemy system where they approach you to try stop you from doing puzzles when you get too close. there is also a Working sword to defend yourself from the enemies. This complex game was unfortunately unfinshed in some small aspects. This huge game was the most complex game from our year."
+            "Text": "During this game I followed a Design Document for the creation. The game consists of 2 levels and 4 mini games which you must complete before you run out of lives (working lives system). There is a scrolling maze, clicker puzzle, spot the difference, and riddle. The game also involves a working shop which has working potions(useable in game) An upgraded sword, and a pickaxe which allows the player to exit a level immediately (without solving puzzles). There is also an enemy system where they approach you to try stop you from doing puzzles when you get too close. there is also a Working sword to defend yourself from the enemies. This complex game was unfortunately unfinished in some small aspects. This huge game was the most complex game from our year."
            },
            {
             "Heading": "Puzzles",
@@ -151,7 +151,7 @@
            },
         {
             "Heading": "What I Learned",
-            "Text": "That sometimes in a project, the last 5% makes the game about 50% better, as the game would be more finished anda much more enjoyable experience for the player. I also learned that I should add more comments if Im working on a group Project, as I recieved many complaints of complicated code, which mainly happened because I had Waaaaaaay to many very complex systems to do, in a short amount of time."
+            "Text": "That sometimes in a project, the last 5% makes the game about 50% better, as the game would be more finished and much more enjoyable experience for the player. I also learned that I should add more comments if I'm working on a group Project, as I received many complaints of complicated code, which mainly happened because I had Waaaaaaay to many very complex systems to do, in a short amount of time."
            },
          {
             "Heading": "Basic Demo: ",
@@ -161,12 +161,12 @@
     "WalledZombies" : [
         {
             "Heading": "Another Zombie Game",
-            "Text": "The zombie game with no zombies, But with some complicated technoligies",
+            "Text": "The zombie game with no zombies, But with some complicated technologies",
             "Parallax": {"file": "src/assets/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
             "Heading": "The Game",
-            "Text": "The 'game' here (if you can call it that) was a very well documented tech demo of a few big things. A new more Advanced collision system, This collision system used a future positioning technique to see if the player will be inside an object, and if it will, it stops movement, This too was a Technique I thought up. There was a nice wall spawning system that would have scaled very well (if I continued on the project) as it was very simple to use, taking 4 inputs, 2 positions, and 2 size coordinates. There are also doors, which were all fully functional and easy to implement also, taking the same 4 as walls, and also cost, and open position. There were also weapon purchasing systems which took into account the current weapon, and either gaver you the weapon as a new weapon (replacing held one) or refilling the ammo stockpile. The weapons also had a very intuitive system which made it possible to easily, and quickly make new weapons."
+            "Text": "The 'game' here (if you can call it that) was a very well documented tech demo of a few big things. A new more Advanced collision system, This collision system used a future positioning technique to see if the player will be inside an object, and if it will, it stops movement, This too was a Technique I thought up. There was a nice wall spawning system that would have scaled very well (if I continued on the project) as it was very simple to use, taking 4 inputs, 2 positions, and 2 size coordinates. There are also doors, which were all fully functional and easy to implement also, taking the same 4 as walls, and also cost, and open position. There were also weapon purchasing systems which took into account the current weapon, and either gave you the weapon as a new weapon (replacing held one) or refilling the ammo stockpile. The weapons also had a very intuitive system which made it possible to easily, and quickly make new weapons."
            },
            {
             "Heading": "Workflow",
@@ -198,15 +198,15 @@
            
         {
             "Heading": "The Game Description",
-            "Text": "The game pits 2 players against eachother in either wireless online play, or local pass and play, play. The player starts with a few options, to change time, change player(in local play), end (or submit) turn, to end the turn, or to interact with a tile. The first interaction is to place one of 3 types of character, a shield character, a bow character or a sword character. Each with a unique Ability." ,
+            "Text": "The game pits 2 players against each other in either wireless online play, or local pass and play, play. The player starts with a few options, to change time, change player(in local play), end (or submit) turn, to end the turn, or to interact with a tile. The first interaction is to place one of 3 types of character, a shield character, a bow character or a sword character. Each with a unique Ability." ,
             "Img": {"file": "src/assets/imgs/TimeVoidCharacters.png", "alt": "Image Character abilities", "size": {"width": "50%", "height": "50%"}}
         },
            {
-            "Text": "The player is to use these abilities intelligently to beat the opponent. The other option is after finishing a turn and a character is placed is to either attack with the character, defend with them, or move with them. Every character on the field can do an action every turn.Time travel each player can go to the past (or back to the future) with a 2 turn cooldown between changes. This means that the player must be smart with switches to either control all the tiles in the future or the past. This game requires a lot of thinking and planning to beat the other player."
+            "Text": "The player is to use these abilities intelligently to beat the opponent. The other option is after finishing a turn and a character is placed is to either attack with the character, defend with them, or move with them. Every character on the field can do an action every turn. Time travel each player can go to the past (or back to the future) with a 2 turn cooldown between changes. This means that the player must be smart with switches to either control all the tiles in the future or the past. This game requires a lot of thinking and planning to beat the other player."
            },
            {
             "Heading": "The Game",
-            "Text": "In this project I made all of the assets, and all of the programming. I used a library to assist with tcp/udp connection for the server side of hosting / peer."
+            "Text": "In this project I made all of the assets, and all of the programming. I used a library to assist with TCP/UDP connection for the server side of hosting / peer."
            },
            {
             "Heading": "Workflow",
@@ -228,13 +228,13 @@
     ],
     "ASSembleyCalculator": [
         {
-            "Heading" : "Assembely calculator",
+            "Heading" : "Assembly calculator",
             "Text" : "Known as the worst language to code in"
         }
         ,
         {
             "Heading" : "The project",
-            "Text": "The calculator functions very similarly to that of a standard Computer calculator. This one however is made in the good old language of binary. Programmed for the motorola 6800, This calculator includes some basic feedback with tile illumination of which is highlighted and display system at the top."
+            "Text": "The calculator functions very similarly to that of a standard Computer calculator. This one however is made in the good old language of binary. Programmed for the Motorola 6800, This calculator includes some basic feedback with tile illumination of which is highlighted and display system at the top."
         },
         {
             "Img": {"file": "src/assets/imgs/AssemblyCalculator.png", "alt": "Image of the assembely calculator", "size": {"width": "100%", "height": "100%"}} 
@@ -263,7 +263,7 @@
             "Text": "This game has a Very simple premise, Collect Drugs, and shoot them at the patients."
         },
         {
-            "Text": "Simple but many different aspects are in here, A fuull level editor, pill collection, collection bars, patrolling enemies, enemy detection system. Since The enemies are blind and you have to avoid them until you have their medication, you have to stay out of their walking sticks, or theyll chase you. Unfortunately they can smell the pills on you. So when you have them all... RUN!"
+            "Text": "Simple but many different aspects are in here, A full level editor, pill collection, collection bars, patrolling enemies, enemy detection system. Since The enemies are blind and you have to avoid them until you have their medication, you have to stay out of their walking sticks, or they'll chase you. Unfortunately they can smell the pills on you. So when you have them all... RUN!"
         },
         {
             "Text": "This game has a nice particle effect system, fireworks when you win, a complex Cone based detection system, spatial partition for the level and a character selection screen.",
@@ -275,7 +275,7 @@
         } ,
         {
             "Heading" : "What I Learned",
-            "Text" : "I learned that many systems if made well can be reused a lot across the game. For instance the particle sytem made for nice 'health' splatter and for nice fireworks for when you win the game."
+            "Text" : "I learned that many systems if made well can be reused a lot across the game. For instance the particle system made for nice 'health' splatter and for nice fireworks for when you win the game."
         } ,
         {
             "Heading": "Basic Demo: ",
@@ -285,12 +285,12 @@
     "TankGame": [
         {
             "Heading": "Tank Game",
-            "Text": "This game has so many little features, and in depth algorithms and would be the perfect base for a fulll game.",
+            "Text": "This game has so many little features, and in depth algorithms and would be the perfect base for a full game.",
             "Img": {"file": "src/assets/imgs/TankGameScreenshot.png", "alt": "Tank Game screenshot", "size": {"width": "75%", "height": "75%"}}
         },
         {
              "Heading": "The Game",
-            "Text": "Destroy all the targets in the alotted time"
+            "Text": "Destroy all the targets in the allotted time"
         },
         {
            "Text": "Different damage states for the tank (turret rotation, hard turn left, constant drive, and destroyed), Controller Input(with 2 controller input at the same time), Bullet wall collision and enemy collision, complex ai that gets progressively more difficult, A goal for the player to complete (kill 10 enemies within 60 seconds), A scrolling screen level, accurate movement collision with the walls for the tank, arrows to point out the enemies location, accuracy tracker, level editor and level loader and a split screen versus game mode."
@@ -329,11 +329,11 @@
            
         {
             "Heading": "The Game Description",
-            "Text": "Welcome to the space simulator where you take orders from Your clients and make sure that you do them correctly. Dont mess them up, the customers dont like that!" ,
+            "Text": "Welcome to the space simulator where you take orders from Your clients and make sure that you do them correctly. Don't mess them up, the customers don't like that!" ,
             "Img": {"file": "src/assets/imgs/StarBeanScreenshot.png", "alt": "Screenshot of customer ordering a drink", "size": {"width": "50%", "height": "50%"}}
         },
            {
-            "Text": "With unique sound design, Intuitive interface design, Youre sure to have a fun time fulfilling the customers orders."
+            "Text": "With unique sound design, Intuitive interface design, You're sure to have a fun time fulfilling the customers' orders."
            },
            {
             "Heading": "Trailer: ",
@@ -348,7 +348,7 @@
             "Text": "I was the project lead during this Project."
         },
         {
-            "Text": "I was the lead programmer also doing much of the programming. I created most of the Original demo of the game. I designed the game throughout the project following an Agile methodology. I directed all team members on what was required for each day and the priorities for that day. I created the trailer and the different ierations of it."
+            "Text": "I was the lead programmer also doing much of the programming. I created most of the Original demo of the game. I designed the game throughout the project following an Agile methodology. I directed all team members on what was required for each day and the priorities for that day. I created the trailer and the different iterations of it."
         },
         {
             "Heading": "What I Learned",
