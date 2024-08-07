@@ -67,14 +67,16 @@ function loadTimeLineContent(t_jsonFile)
     document.getElementById("clearWrapper").appendChild(newItem);
     newItem = createElement('p', {}, "(See Projects on left, and click to enter Project)");
     document.getElementById("clearWrapper").appendChild(newItem);
+    newItem = createElement('p', {}, "(For Mobile press and hold to see Info, then click again to enter)");
+    document.getElementById("clearWrapper").appendChild(newItem);
 
     // Temporarily removing canvas till ready to work on!
     /*newItem = createElement('canvas', {id:"the_canvas"}, "oops! it looks like your browser doesnt support canvas!")
     document.getElementById("clearWrapper").appendChild(newItem);
     canvas = document.getElementById("the_canvas");
-    context  = canvas.getContext("2d");
+    context  = canvas.getContext("2d");*/
 
-    animate = true;*/
+    animate = true;
     
     newItem = createElement('p', {} ,'<br>');
     document.getElementById("clearWrapper").appendChild(newItem);
@@ -86,6 +88,7 @@ function loadTimeLineContent(t_jsonFile)
     // ***********************************************************
     //            Recomment this in too for the canvas
     // ***********************************************************
+    //initialiseGame();
     //animateMenuItems();
 }
 

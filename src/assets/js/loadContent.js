@@ -21,10 +21,10 @@ function loadGame(readName) {
       firstTime = false;
       readJsonFile(responseJson, readName);
       window.scroll({
-        top: 0, 
-        left: 0, 
-        behavior: 'smooth' 
-       });
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
     })
     .catch((error) => {
       console.log(error)
@@ -56,20 +56,40 @@ function createElement(element, attribute, inner) {
     } else {
       if (inner[k] === "<br>") {
         newElement.appendChild(document.createElement("br"));
-    } else {
-      newElement.appendChild(document.createTextNode(inner[k]));
-    }
+      } else {
+        newElement.appendChild(document.createTextNode(inner[k]));
+      }
     }
   }
 
   return newElement;
 }
 
+let Environment = {
+  isAndroid: function () {
+    return navigator.userAgent.match(/Android/i);
+  },
+  isBlackBerry: function () {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  isIOS: function () {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  isOpera: function () {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  isWindows: function () {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  isMobile: function () {
+    return (Environment.isAndroid() || Environment.isBlackBerry() || Environment.isIOS() || Environment.isOpera() || Environment.isWindows());
+  }
+};
+
 function readJsonFile(t_jsonFile, readName) {
   // adding of headings into html site
 
-  if(readName == 'All')
-  {
+  if (readName == 'All') {
     clearNew();
     alert("ERROR: LOADING ALL CONTENT");
     return;
@@ -102,8 +122,8 @@ function readJsonFile(t_jsonFile, readName) {
       let Button = createElement('button', {
         onclick: "loadPage('" + t_jsonFile[readName][i]["Button"]["Link"] + "')",
         class: "LinkButton"
-      }, 
-      t_jsonFile[readName][i]["Button"]["Text"]);
+      },
+        t_jsonFile[readName][i]["Button"]["Text"]);
       document.getElementById("clearWrapper").appendChild(Button);
     }
 
@@ -117,7 +137,22 @@ function readJsonFile(t_jsonFile, readName) {
       document.getElementById("clearWrapper").appendChild(video);
     }
 
+    function widthCheck() {
+      if (t_jsonFile[readName][i]['Parallax']['size'].hasOwnProperty('width')) {
+        return t_jsonFile[readName][i]["Parallax"]["size"]["width"];
+      } else { return "80%"; }}
+
     if (t_jsonFile[readName][i].hasOwnProperty('Parallax')) {
+      if (Environment.isIOS()) {
+        let Image = createElement('img', {
+          src: t_jsonFile[readName][i]["Parallax"]["file"],
+          width: widthCheck()
+        
+        });
+       
+      document.getElementById("clearWrapper").appendChild(Image);
+    }
+    else {
       let parallaxImage = createElement('div', {
         class: "parallax"
       });
@@ -142,6 +177,7 @@ function readJsonFile(t_jsonFile, readName) {
       document.getElementById("clearWrapper").appendChild(parallaxImage);
     }
   }
+}
 
   //document.getElementById("Heading1").innerHTML = t_jsonFile["Heading"];
 }

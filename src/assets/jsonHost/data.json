@@ -2,12 +2,12 @@
     "HomeScreen": [{
         "Heading": "Welcome",
         "Text": "A time line of some of my games can be found under 'Projects' followed by 'all games'",
-        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "300px"}}
+        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "500px"}}
         },
         {
             "Heading" : "Languages",
             "Text": "I am a Game developer and Software Developer with vast experience in C/C++, Python, Javascript(html/css), Assembely and other languages",
-            "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px"}}
+            "Parallax": {"file": "src/assets/imgs/CodeScreen.jpg", "size": {"height": "500px"}}
         },
         {
             "Heading": "My Passion",
