@@ -70,6 +70,19 @@ function loadTimeLineContent(t_jsonFile)
     newItem = createElement('p', {}, "(For Mobile press and hold to see Info, then click again to enter)");
     document.getElementById("clearWrapper").appendChild(newItem);
 
+    newItem = createElement('h1', {}, "The current Project Im working on: ");
+    document.getElementById("clearWrapper").appendChild(newItem);
+    newItem = createElement('p', {}, "Project code name : Red Castle");
+    document.getElementById("clearWrapper").appendChild(newItem);
+    newItem = createElement('p', {}, "This is my current big project I am working on, it is a rogue like shooter with many guns, and randomly generated dungeon rooms!");
+    document.getElementById("clearWrapper").appendChild(newItem);
+    newItem = createElement('p', {}, "Teaser Trailer: ");
+    document.getElementById("clearWrapper").appendChild(newItem);
+    newItem = createElement('iframe', {
+      src: "https://www.youtube.com/embed/suwh68bwX8I", allowfullscreen: "true"
+    });
+    document.getElementById("clearWrapper").appendChild(newItem);
+
     // Temporarily removing canvas till ready to work on!
     /*newItem = createElement('canvas', {id:"the_canvas"}, "oops! it looks like your browser doesnt support canvas!")
     document.getElementById("clearWrapper").appendChild(newItem);
