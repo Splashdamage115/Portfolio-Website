@@ -99,7 +99,7 @@ function loadTimeLineContent(t_jsonFile)
     document.getElementById("clearWrapper").appendChild(newItem);
 
     // ***********************************************************
-    //            Recomment this in too for the canvas
+    //            Re-comment this in too for the canvas
     // ***********************************************************
     //initialiseGame();
     //animateMenuItems();
