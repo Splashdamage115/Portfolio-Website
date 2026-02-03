@@ -1,16 +1,76 @@
-# React + Vite
+# David Strikaitis - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing game development projects and professional experience.
 
-Currently, two official plugins are available:
+## 🚀 Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - Modern UI library
+- **Vite** - Fast build tool and dev server
+- **Framer Motion** - Smooth animations and transitions
+- **React Router** - Client-side routing
+- **React Icons** - Beautiful icon library
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Modern Design** - Clean, professional interface with purple gradient theme
+- **Fully Responsive** - Optimized for all screen sizes
+- **Smooth Animations** - Engaging transitions using Framer Motion
+- **Interactive Projects** - Detailed project modals with videos and images
+- **Timeline View** - Chronological display of all projects
+- **SEO Optimized** - Proper meta tags and semantic HTML
 
-## Expanding the ESLint configuration
+## 🎮 Projects Featured
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Star Bean** - Award-winning space barista simulator (Best UI & Music - 2024 Games Fleadh)
+- **Time Void** - Multiplayer strategy game
+- **Blind Watchers** - Stealth game with complex detection systems
+- **Tank Game** - Feature-rich tank game with split-screen multiplayer
+- **Dungeon Adventure** - Complex game with multiple mini-games
+- And 6 more projects!
+
+## 🛠️ Development
+
+### Prerequisites
+- Node.js 18+ and npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development Server
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the site.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 📦 Deployment
+
+The site automatically deploys to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
+
+## 📄 License
+
+© 2024 David Strikaitis. All rights reserved.
+
+## 📧 Contact
+
+- **Email**: davidstrikaitis@gmail.com
+- **Phone**: +353 89 223 5566
+- **GitHub**: [@Splashdamage115](https://github.com/Splashdamage115)
