@@ -1,0 +1,64 @@
+.contact {
+  background: linear-gradient(180deg, transparent 0%, rgba(26, 10, 30, 0.9) 50%, #1a0a1e 100%);
+  padding-bottom: 100px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.contact-card {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  background: rgba(149, 0, 255, 0.15);
+}
+
+.contact-icon {
+  font-size: 3rem;
+  color: #9500ff;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover .contact-icon {
+  transform: scale(1.2);
+}
+
+.contact-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #9500ff;
+}
+
+.contact-card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(149, 0, 255, 0.2);
+}
+
+.footer-text p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
