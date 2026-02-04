@@ -23,13 +23,19 @@
 
 .about-card {
   text-align: center;
-  padding: 2.5rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .about-icon {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
   filter: drop-shadow(0 4px 10px rgba(149, 0, 255, 0.3));
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
 }
 
 .about-card h3 {
@@ -54,6 +60,7 @@
   width: 100%;
   height: auto;
   display: block;
+  margin: 0 auto;
   border-radius: 20px;
   border: 2px solid rgba(149, 0, 255, 0.3);
 }
