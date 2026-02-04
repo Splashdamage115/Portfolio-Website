@@ -25,7 +25,7 @@ const About = () => {
     },
     {
       title: "Full Stack Developer",
-      description: "Built this entire website from scratch using modern React framework, demonstrating full-stack capabilities and modern web development skills.",
+      description: "Experienced in both frontend and backend development, including work with databases, APIs, and server-side technologies across multiple game and software projects.",
       icon: "🚀"
     }
   ]

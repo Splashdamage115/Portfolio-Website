@@ -7,9 +7,9 @@
         {"name": "DungeonAdventure", "displayName": "The Dungeon Adventure", "date": "April /2023", "gap":"900px", "img":"src/assets/imgs/DungeonAdventureScreenshot.png", "description":"The First Team Game, Where I followed a Design Document"},
         {"name": "WalledZombies", "displayName": "2d World Tech Demo", "date": "Summer /2023", "gap":"685px", "img":"src/assets/imgs/ExplosiveBarrel.png", "description":"The Tech Demo that was more complicated than I realised"} ,
         {"name": "UIProject", "displayName": "Time Void", "date": "November /2023", "gap":"485px", "img":"src/assets/imgs/TimeVoid.png", "description":"The online Strategy Battle"},
+        {"name": "StarBean", "displayName": "Star Bean", "date": "February /2024", "gap":"330px", "img":"src/assets/imgs/STARBEANSlogo.png", "description":"The Award Winner"},
         {"name": "ASSembleyCalculator", "displayName": "Assembly Calculator", "date": "April /2024", "gap":"185px", "img":"src/assets/imgs/AssemblyCalculator.png", "description":"A basic calculator"},
         {"name": "BlindWatchers", "displayName": "Blind Watchers", "date": "April /2024", "gap":"130px", "img":"src/assets/imgs/CharacterBlindWatchers.png", "description":"The Real Doctors Experience"},
-        {"name": "TankGame", "displayName": "Tank Game", "date": "April /2024", "gap":"230px", "img":"src/assets/imgs/TankEnemy.png", "description":"The tank Game with Maaany features"},
-        {"name": "StarBean", "displayName": "Star Bean", "date": "Febuary /2024", "gap":"330px", "img":"src/assets/imgs/STARBEANSlogo.png", "description":"The Award Winner"}
+        {"name": "TankGame", "displayName": "Tank Game", "date": "April /2024", "gap":"230px", "img":"src/assets/imgs/TankEnemy.png", "description":"The tank Game with Maaany features"}
     ]
 }
