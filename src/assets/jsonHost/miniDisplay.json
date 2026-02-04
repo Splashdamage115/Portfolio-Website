@@ -10,6 +10,6 @@
         {"name": "ASSembleyCalculator", "displayName": "Assembly Calculator", "date": "April /2024", "gap":"185px", "img":"/imgs/AssemblyCalculator.png", "description":"A basic calculator"},
         {"name": "BlindWatchers", "displayName": "Blind Watchers", "date": "April /2024", "gap":"130px", "img":"/imgs/CharacterBlindWatchers.png", "description":"The Real Doctors Experience"},
         {"name": "TankGame", "displayName": "Tank Game", "date": "April /2024", "gap":"230px", "img":"/imgs/TankEnemy.png", "description":"The tank Game with Maaany features"},
-        {"name": "StarBean", "displayName": "Star Bean", "date": "Febuary /2024", "gap":"330px", "img":"/imgs/STARBEANSlogo.png", "description":"The Award Winner"}
+        {"name": "StarBean", "displayName": "Star Bean", "date": "February /2024", "gap":"330px", "img":"/imgs/STARBEANSlogo.png", "description":"The Award Winner"}
     ]
 }
