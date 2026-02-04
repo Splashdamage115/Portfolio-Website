@@ -2,12 +2,12 @@
     "HomeScreen": [{
         "Heading": "Welcome",
         "Text": "A time line of some of my games can be found under 'Projects' followed by 'all games'",
-        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "500px"}}
+        "Parallax": {"file": "/imgs/me.png", "size": {"height": "500px"}}
         },
         {
             "Heading" : "Languages",
             "Text": "I am a Game developer and Software Developer with vast experience in C/C++, Python, Javascript(html/CSS), Assembly and other languages",
-            "Parallax": {"file": "src/assets/imgs/CodeScreen.jpg", "size": {"height": "500px"}}
+            "Parallax": {"file": "/imgs/CodeScreen.jpg", "size": {"height": "500px"}}
         },
         {
             "Heading": "My Passion",
@@ -51,7 +51,7 @@
     {
         "Heading": "The Game",
         "Text": "The game mainly consists of a simple menu system and a set of enemies that walk in from the right hand of the screen towards the player on the left, the player has a simple point and click bullet that they can defend themself with, and they lose the game if the enemy reaches the left hand of the screen.",
-        "Img": {"file": "src/assets/imgs/GGJ23 Menu.png", "alt": "Image of main menu", "size": {"width": "50%", "height": "50%"}},
+        "Img": {"file": "/imgs/GGJ23 Menu.png", "alt": "Image of main menu", "size": {"width": "50%", "height": "50%"}},
         "Video": {"file": "https://www.youtube.com/embed/hJf3YGWnjVk", "size": {"width": "80%", "height": "600px"}}
     } ,
     {
@@ -71,7 +71,7 @@
     "CraftingGame": [{
         "Heading": "Crafting Game",
         "Text": "The spring interactive project that I went above and beyond on.",
-        "Parallax": {"file": "src/assets/imgs/CraftingGameScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+        "Parallax": {"file": "/imgs/CraftingGameScreenShot.png", "size": {"height": "500px", "width": "100%"}}
     },
     {
         "Heading": "The Game",
@@ -93,7 +93,7 @@
     "ZombieShooter": [{
         "Heading": "Zombie Shooter Survival",
         "Text": "A personal Project, Which I've tried more than once to perfect",
-        "Parallax": {"file": "src/assets/imgs/OriginalZombieShooterScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+        "Parallax": {"file": "/imgs/OriginalZombieShooterScreenShot.png", "size": {"height": "500px", "width": "100%"}}
     },
     {
         "Heading" : "Image Above",
@@ -116,7 +116,7 @@
         {
             "Heading": "Zombie Shooter Project",
             "Text": "Soon after I finished my first project, I found out that what I had done was to be an assignment for my Programming Class.",
-            "Parallax": {"file": "src/assets/imgs/ZombieShooter2Screen.png", "size": {"height": "500px", "width": "100%"}}
+            "Parallax": {"file": "/imgs/ZombieShooter2Screen.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
             "Heading": "The Game",
@@ -135,7 +135,7 @@
         {
             "Heading": "The Dungeon Adventure",
             "Text": "The Project with Many moving parts, where I did most of the coding.",
-            "Parallax": {"file": "src/assets/imgs/DungeonAdventureProject.png", "size": {"height": "500px", "width": "100%"}}
+            "Parallax": {"file": "/imgs/DungeonAdventureProject.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
             "Heading": "The Game",
@@ -162,7 +162,7 @@
         {
             "Heading": "Another Zombie Game",
             "Text": "The zombie game with no zombies, But with some complicated technologies",
-            "Parallax": {"file": "src/assets/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+            "Parallax": {"file": "/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
             "Heading": "The Game",
@@ -185,7 +185,7 @@
         {
             "Heading": "Time Void",
             "Text": "The multiplayer strategy game that will challenge your mind, and your cunning.",
-            "Parallax": {"file": "src/assets/imgs/TimeVoidScreenshot.png", "size": {"height": "500px", "width": "100%"}}
+            "Parallax": {"file": "/imgs/TimeVoidScreenshot.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
             "Heading": "Genre",
@@ -199,7 +199,7 @@
         {
             "Heading": "The Game Description",
             "Text": "The game pits 2 players against each other in either wireless online play, or local pass and play, play. The player starts with a few options, to change time, change player(in local play), end (or submit) turn, to end the turn, or to interact with a tile. The first interaction is to place one of 3 types of character, a shield character, a bow character or a sword character. Each with a unique Ability." ,
-            "Img": {"file": "src/assets/imgs/TimeVoidCharacters.png", "alt": "Image Character abilities", "size": {"width": "50%", "height": "50%"}}
+            "Img": {"file": "/imgs/TimeVoidCharacters.png", "alt": "Image Character abilities", "size": {"width": "50%", "height": "50%"}}
         },
            {
             "Text": "The player is to use these abilities intelligently to beat the opponent. The other option is after finishing a turn and a character is placed is to either attack with the character, defend with them, or move with them. Every character on the field can do an action every turn. Time travel each player can go to the past (or back to the future) with a 2 turn cooldown between changes. This means that the player must be smart with switches to either control all the tiles in the future or the past. This game requires a lot of thinking and planning to beat the other player."
@@ -211,7 +211,7 @@
            {
             "Heading": "Workflow",
             "Text": "Throughout this project I had a strict list of things I had to do. I then worked through them one by one and marked off each with a tick or different pointers of progress. This helped me keep track of where I was in the project and how much I had left to do. This allowed me to time manage each part of the project and keep ahead of the rather tight deadline.",
-            "Img": {"file": "src/assets/imgs/TimeVoidWorkFlow.png", "alt": "Image of workflow indicators", "size": {"width": "50%", "height": "50%"}} 
+            "Img": {"file": "/imgs/TimeVoidWorkFlow.png", "alt": "Image of workflow indicators", "size": {"width": "50%", "height": "50%"}} 
         },
         {
             "Heading": "What I Learned",
@@ -237,7 +237,7 @@
             "Text": "The calculator functions very similarly to that of a standard Computer calculator. This one however is made in the good old language of binary. Programmed for the Motorola 6800, This calculator includes some basic feedback with tile illumination of which is highlighted and display system at the top."
         },
         {
-            "Img": {"file": "src/assets/imgs/AssemblyCalculator.png", "alt": "Image of the assembely calculator", "size": {"width": "100%", "height": "100%"}} 
+            "Img": {"file": "/imgs/AssemblyCalculator.png", "alt": "Image of the assembely calculator", "size": {"width": "100%", "height": "100%"}} 
         },
         {
             "Text" : "The main thing around this calculator was the focus on the UI elements, Making them useable and easy to access, They are a standard reflection of any calculator people use on any other system."
@@ -256,7 +256,7 @@
         {
             "Heading" : "Blind Watchers",
             "Text" : "Does the world exist if nobody Sees it?",
-            "Img": {"file": "src/assets/imgs/BlindWatchersScreenshot.png", "alt": "Image Of Home Screen of blind Watchers", "size": {"width": "75%", "height": "75%"}}
+            "Img": {"file": "/imgs/BlindWatchersScreenshot.png", "alt": "Image Of Home Screen of blind Watchers", "size": {"width": "75%", "height": "75%"}}
         },
         {
             "Heading": "The Game",
@@ -267,7 +267,7 @@
         },
         {
             "Text": "This game has a nice particle effect system, fireworks when you win, a complex Cone based detection system, spatial partition for the level and a character selection screen.",
-            "Img": {"file": "src/assets/imgs/BlindWatchersScreenshot2.png", "alt": "Blind man gets shot.", "size": {"width": "50%", "height": "50%"}}
+            "Img": {"file": "/imgs/BlindWatchersScreenshot2.png", "alt": "Blind man gets shot.", "size": {"width": "50%", "height": "50%"}}
         },
         {
             "Heading": "My Role",
@@ -286,7 +286,7 @@
         {
             "Heading": "Tank Game",
             "Text": "This game has so many little features, and in depth algorithms and would be the perfect base for a full game.",
-            "Img": {"file": "src/assets/imgs/TankGameScreenshot.png", "alt": "Tank Game screenshot", "size": {"width": "75%", "height": "75%"}}
+            "Img": {"file": "/imgs/TankGameScreenshot.png", "alt": "Tank Game screenshot", "size": {"width": "75%", "height": "75%"}}
         },
         {
              "Heading": "The Game",
@@ -309,7 +309,7 @@
         {
             "Heading": "Star Bean",
             "Text": "Ever wanted to be a barista? Here is your best chance",
-            "Parallax": {"file": "src/assets/imgs/StarBeanPoster.png", "size": {"height": "500px", "width": "100%"}}
+            "Parallax": {"file": "/imgs/StarBeanPoster.png", "size": {"height": "500px", "width": "100%"}}
         },
         {
             "Heading": "Genre",
@@ -330,7 +330,7 @@
         {
             "Heading": "The Game Description",
             "Text": "Welcome to the space simulator where you take orders from Your clients and make sure that you do them correctly. Don't mess them up, the customers don't like that!" ,
-            "Img": {"file": "src/assets/imgs/StarBeanScreenshot.png", "alt": "Screenshot of customer ordering a drink", "size": {"width": "50%", "height": "50%"}}
+            "Img": {"file": "/imgs/StarBeanScreenshot.png", "alt": "Screenshot of customer ordering a drink", "size": {"width": "50%", "height": "50%"}}
         },
            {
             "Text": "With unique sound design, Intuitive interface design, You're sure to have a fun time fulfilling the customers' orders."

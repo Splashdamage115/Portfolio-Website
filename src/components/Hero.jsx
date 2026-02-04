@@ -76,7 +76,7 @@ const Hero = () => {
         >
           <div className="hero-image-wrapper">
             <img
-              src="/src/assets/imgs/me.png"
+              src="/imgs/me.png"
               alt="David Strikaitis"
               className="profile-image"
             />

@@ -69,7 +69,7 @@ const About = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <img
-            src="/src/assets/imgs/CodeScreen.jpg"
+            src="/imgs/CodeScreen.jpg"
             alt="Code example"
             className="code-image"
           />

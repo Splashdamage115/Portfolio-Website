@@ -58,8 +58,10 @@ After deployment:
 ## Troubleshooting
 
 ### Images not loading
-- Check that image paths use `/src/assets/imgs/` format
+- Images are stored in the `public/imgs/` directory
+- Image paths in code should use `/imgs/` format (not `/src/assets/imgs/`)
 - Verify all images are committed to the repository
+- After deployment, images should be accessible at `https://domain.com/imgs/filename.png`
 
 ### 404 errors
 - Ensure the build completed successfully

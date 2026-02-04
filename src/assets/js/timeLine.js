@@ -95,7 +95,7 @@ function loadTimeLineContent(t_jsonFile)
     document.getElementById("clearWrapper").appendChild(newItem);
 
     newItem = createElement('video', {autoplay:"true",loop:"true", width:"80%"});
-    newItem.appendChild(createElement('source', {src:"src/assets/imgs/Render.mp4", type:"video/mp4"}))
+    newItem.appendChild(createElement('source', {src:"/imgs/Render.mp4", type:"video/mp4"}))
     document.getElementById("clearWrapper").appendChild(newItem);
 
     // ***********************************************************
