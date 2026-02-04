@@ -16,42 +16,42 @@ const Projects = () => {
       key: 'StarBean', 
       name: 'Star Bean',
       description: 'Award-winning space barista simulator - Best UI & Best Music at 2024 Games Fleadh',
-      image: '/src/assets/imgs/StarBeanPoster.png',
+      image: '/imgs/StarBeanPoster.png',
       tags: ['Award Winner', 'Simulator', 'Unity']
     },
     { 
       key: 'UIProject', 
       name: 'Time Void',
       description: 'Multiplayer strategy game challenging mind and cunning',
-      image: '/src/assets/imgs/TimeVoidScreenshot.png',
+      image: '/imgs/TimeVoidScreenshot.png',
       tags: ['Strategy', 'Multiplayer', 'PvP']
     },
     { 
       key: 'BlindWatchers', 
       name: 'Blind Watchers',
       description: 'Stealth game with complex detection systems and particle effects',
-      image: '/src/assets/imgs/BlindWatchersScreenshot.png',
+      image: '/imgs/BlindWatchersScreenshot.png',
       tags: ['Stealth', 'Puzzle', 'Action']
     },
     { 
       key: 'TankGame', 
       name: 'Tank Game',
       description: 'Feature-rich tank game with split-screen multiplayer',
-      image: '/src/assets/imgs/TankGameScreenshot.png',
+      image: '/imgs/TankGameScreenshot.png',
       tags: ['Action', 'Multiplayer', 'Arcade']
     },
     { 
       key: 'DungeonAdventure', 
       name: 'Dungeon Adventure',
       description: 'Complex game with multiple mini-games and puzzles',
-      image: '/src/assets/imgs/DungeonAdventureProject.png',
+      image: '/imgs/DungeonAdventureProject.png',
       tags: ['Adventure', 'Puzzle', 'RPG']
     },
     { 
       key: 'ZombieShooter', 
       name: 'Zombie Shooter',
       description: 'Wave-based survival with explosive enemies',
-      image: '/src/assets/imgs/OriginalZombieShooterScreenShot.png',
+      image: '/imgs/OriginalZombieShooterScreenShot.png',
       tags: ['Action', 'Survival', 'Shooter']
     }
   ]

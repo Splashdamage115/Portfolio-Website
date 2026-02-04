@@ -74,7 +74,7 @@ function AnimatedSprite(sprite, position, frameAmt, frameSize, spriteStart, wait
 
 // decleration of the background object
 let backSprite = new Image;
-backSprite.src = "src/assets/imgs/background.png";
+backSprite.src = "/imgs/background.png";
 
 // sprite, position, frameAmt, frameSize, spriteStart, waitTime, scaleFactor
 let background = new AnimatedSprite(backSprite,new Coords(0,0),54,new Coords(480,854),new Coords(0,0),8,1);
@@ -242,7 +242,7 @@ function touchStartFunc(event)
 const buttonWidth = 64;
 const buttonHeight = 32;
 let standardButtons = new Image;
-standardButtons.src = "src/assets/imgs/normalButton.png";
+standardButtons.src = "/imgs/normalButton.png";
 
 let buttonScaleFactor = 1;
 // functions that will be executed when you press the respective buttons
