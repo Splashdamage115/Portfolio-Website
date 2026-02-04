@@ -1,0 +1,369 @@
+{
+    "HomeScreen": [{
+        "Heading": "Welcome",
+        "Text": "A time line of some of my games can be found under 'Projects' followed by 'all games'",
+        "Parallax": {"file": "src/assets/imgs/me.png", "size": {"height": "500px"}}
+        },
+        {
+            "Heading" : "Languages",
+            "Text": "I am a Game developer and Software Developer with vast experience in C/C++, Python, Javascript(html/CSS), Assembly and other languages",
+            "Parallax": {"file": "src/assets/imgs/CodeScreen.jpg", "size": {"height": "500px"}}
+        },
+        {
+            "Heading": "My Passion",
+            "Text": "I am a game designer who has won many game awards in previous years! Game design, general programming(and game programming) and art are all areas of programming that I never stop researching or doing."
+        },
+        {
+            "Heading" : " ",
+            "Text": "I also made this Website from scratch using js, CSS & html!"
+        },
+        {
+            "Heading" : "Education",
+            "Text": "I currently study at Setu Carlow in the 'computer games development' course, Where I receive high average grades. I also did computer science in secondary school, and I spend a lot of my free time programming or researching about programming."
+        },
+        {
+            "Heading": "Please Contact Me",
+            "Text": "My details can be found in the 'Contacts' Tab or at the bottom of the page"
+        }
+    ]
+
+    ,
+
+    "LevelTemplate": [{
+        "Heading": "My first game",
+        "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game",
+        "Img": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "alt": "Image of code", "size": {"width": "50%", "height": "50%"}},
+        "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo?si=BLLNkH8ngCUmg94B", "size": {"width": "50%", "height": "50%"}},
+        "Parallax": {"file": "https://wallpapercave.com/wp/wp3988340.jpg", "size": {"height": "500px", "width":"50vw"}, "position": {"left": "0px", "centeringPosition": "left"}, "overlay": {"top": "10px", "bottom": "-250px"}}
+        },
+        {
+            "Heading": "My second game",
+            "Text": "This is my game,This is my game,This is my game,This is my game,This is my game,This is my game,This is my game"
+        }
+    ]
+
+    ,
+
+    "GGJ23": [{
+        "Heading": "A root cause worth fighting 4",
+        "Text": "This was my first team project, that I brought from a terrible state, to a somewhat working state, by myself."
+    } ,
+    {
+        "Heading": "The Game",
+        "Text": "The game mainly consists of a simple menu system and a set of enemies that walk in from the right hand of the screen towards the player on the left, the player has a simple point and click bullet that they can defend themself with, and they lose the game if the enemy reaches the left hand of the screen.",
+        "Img": {"file": "src/assets/imgs/GGJ23 Menu.png", "alt": "Image of main menu", "size": {"width": "50%", "height": "50%"}},
+        "Video": {"file": "https://www.youtube.com/embed/hJf3YGWnjVk", "size": {"width": "80%", "height": "600px"}}
+    } ,
+    {
+        "Heading": "My contribution",
+        "Text":"Having learned how to make a console based calculator, to make a full on Game was a Huge step up. I was working in a group of 3 (including myself). I was mainly assigned the role of making assets in the game and working on the main menu. We ended up making the game within a space of 48 hours, including team introductions and planning. On the last day I ended up being left alone as my team couldnt attend the event."
+    },
+    {
+        "Text":"The game when it was left to me, had one type of enemy (as my team couldn't figure out how to make a flying one) no assets, and unfinished collision and damage systems, All of which I had to implement. This meant within the space of 3/4 hours I had to make a functional game."
+    },
+    {
+         "Heading": "What I Learned",
+        "Text":"During this event, due to me having to finish the game, I learned how to work under pressure. I also learned how to read code I had no understanding of, and understand it enough on how to fix it, improve it and how to implement new features."
+   }
+    ]
+    ,
+
+    "CraftingGame": [{
+        "Heading": "Crafting Game",
+        "Text": "The spring interactive project that I went above and beyond on.",
+        "Parallax": {"file": "src/assets/imgs/CraftingGameScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+    },
+    {
+        "Heading": "The Game",
+        "Text": "This game is a simple demonstration of a crafting game in which the main goal is to craft a pickaxe. This was the first time I experimented with Arrays of Objects, and it is possible to see that some object cards disappear after you craft a new item, At this point I didn't know how to fix this issue."
+    } ,
+    {
+        "Heading": "My Work",
+        "Text" : "In this project the original task was simple, to create a simple system that changes something on the screen. I decided that Id make a full crafting system. "
+    },
+    {
+        "Heading": "What I Learned",
+        "Text":"During this project I learned of the intricacies of making systems that can be adapted to different games and have a modular design which reacts to the user and creates what the player should expect."
+     },
+     {
+        "Heading": "Basic Demo: ",
+        "Video": {"file": "https://www.youtube.com/embed/ctGrYI9MGwg", "size": {"width": "80%", "height": "600px"}}
+     }
+    ] ,
+    "ZombieShooter": [{
+        "Heading": "Zombie Shooter Survival",
+        "Text": "A personal Project, Which I've tried more than once to perfect",
+        "Parallax": {"file": "src/assets/imgs/OriginalZombieShooterScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+    },
+    {
+        "Heading" : "Image Above",
+        "Text" : "The image above is a basic showing of how the game looks in debug mode, the black lines representing the enemies movement path, The red line representing the vector to the cursor (shoot path), and the blue line showing the explosive enemies move line."
+    },
+    {
+        "Heading": "The Game",
+        "Text": "This game has a lot to unpack. So, to begin with it has a functional wave system of spawning enemies in ramping difficulty, Explosive enemies that explode when they are close enough to you causing immense damage to both the player, and other enemies, but they run on screen and wait for 3 seconds before running at you giving you some time to react to them, So kill them quick before they start running. A basic Enemy that runs at you and also damages you with a health pool and different random speeds, a damage system involving collisions between player / enemies, bullet collision system with enemy and a reload mechanism for the basic weapon that the player wields."
+    },
+    {
+        "Heading": "What I Learned",
+        "Text":"During this game I learned what it takes to make many complex systems. I had so many things That I wanted to do, but it all came together to making a game that felt Fun, and rewarding for the player."
+     },
+     {
+        "Heading": "Basic Demo: ",
+        "Video": {"file": "https://www.youtube.com/embed/paQ-atpKDac", "size": {"width": "80%", "height": "600px"}}
+     }
+    ] ,
+    "TileZombies": [
+        {
+            "Heading": "Zombie Shooter Project",
+            "Text": "Soon after I finished my first project, I found out that what I had done was to be an assignment for my Programming Class.",
+            "Parallax": {"file": "src/assets/imgs/ZombieShooter2Screen.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "This game consists of some similar principles to the previous zombie game, such as waves, runner zombies, bullets, bullet collisions and enemy health. This one however has been built from the ground up to follow some of the project guidelines. These guidelines were simple, the game must have 2 enemies, player loss condition and a main menu. This project was going on at a similar time to another big project so I had a lot on my plate. I still however managed to explore some new systems that I had been thinking about. This game contains my first experience with complex collisions between obstacles, A main staple in more or less every game . . . Ever. This collision system was not in the project brief but I believed it to be a good idea to try to make for the fun of it. The second enemy also has some quite complex logic, It finds the furthest corner from the player on the obstacle closest to it, and then walks straight to it and begins shooting at the player, This makes the game extremely difficult and hard to achieve a high score on. There too is an Instruction screen, animated assets, enemy health bars, player health bar, a more complex and fun wave system. The main piece that I learned from this still being the complex collision system with the obstacle which pushes the player out of the obstacle in the current direction of travel. This system I came to find is common in many collision systems, but one that I had come up with on my own at the time."
+        },
+        {
+            "Heading": "What I Learned",
+            "Text":"Collisions. The main grasp I got was the complex system known as movement collisions. I also managed a lot of time management as I was working on 3 other projects at the same time as this one which is further outlined in the Joint Project."
+         },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/1U9aHqbmdMQ", "size": {"width": "80%", "height": "600px"}}
+         }
+    ],
+    "DungeonAdventure": [
+        {
+            "Heading": "The Dungeon Adventure",
+            "Text": "The Project with Many moving parts, where I did most of the coding.",
+            "Parallax": {"file": "src/assets/imgs/DungeonAdventureProject.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "During this game I followed a Design Document for the creation. The game consists of 2 levels and 4 mini games which you must complete before you run out of lives (working lives system). There is a scrolling maze, clicker puzzle, spot the difference, and riddle. The game also involves a working shop which has working potions(useable in game) An upgraded sword, and a pickaxe which allows the player to exit a level immediately (without solving puzzles). There is also an enemy system where they approach you to try stop you from doing puzzles when you get too close. there is also a Working sword to defend yourself from the enemies. This complex game was unfortunately unfinished in some small aspects. This huge game was the most complex game from our year."
+           },
+           {
+            "Heading": "Puzzles",
+            "Text": "The maze was the most complex Coding challenge, as it had a tile system for the walls of the level, a scrolling level (we had not learned this yet, and I was not aware of views, so I did reverse object movement) This also involved a more refined version of collision system I used in my second zombie game. The riddle game had an implementation designed for ease of use to create new levels. The clicker puzzle was a way of making some cash. The spot the difference puzzle is a fun little challenge for the player."
+           },
+        {
+            "Heading": "My Role",
+            "Text": "My role was to do most of the programming, the only aspects I had not done were the asset implementation, the clicker puzzle, and the spot the difference. I spent a lot of time making a fully functional shop with an implemented inventory system for it. I ended up with over 60% project contribution (A lot was going for art, which I was not doing)."
+           },
+        {
+            "Heading": "What I Learned",
+            "Text": "That sometimes in a project, the last 5% makes the game about 50% better, as the game would be more finished and much more enjoyable experience for the player. I also learned that I should add more comments if I'm working on a group Project, as I received many complaints of complicated code, which mainly happened because I had Waaaaaaay to many very complex systems to do, in a short amount of time."
+           },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/Sw1jbowbCrU", "size": {"width": "80%", "height": "600px"}}
+         }
+    ] ,
+    "WalledZombies" : [
+        {
+            "Heading": "Another Zombie Game",
+            "Text": "The zombie game with no zombies, But with some complicated technologies",
+            "Parallax": {"file": "src/assets/imgs/ZombieDemoScreenShot.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "The 'game' here (if you can call it that) was a very well documented tech demo of a few big things. A new more Advanced collision system, This collision system used a future positioning technique to see if the player will be inside an object, and if it will, it stops movement, This too was a Technique I thought up. There was a nice wall spawning system that would have scaled very well (if I continued on the project) as it was very simple to use, taking 4 inputs, 2 positions, and 2 size coordinates. There are also doors, which were all fully functional and easy to implement also, taking the same 4 as walls, and also cost, and open position. There were also weapon purchasing systems which took into account the current weapon, and either gave you the weapon as a new weapon (replacing held one) or refilling the ammo stockpile. The weapons also had a very intuitive system which made it possible to easily, and quickly make new weapons."
+           },
+           {
+            "Heading": "Workflow",
+            "Text": "In this project I tried to optimise my workflow of task, whats to be done, what is done, and what is yet to be done. This skill itself helped me finish many future projects to a high degree, in a good flow as opposed to doing cowboy coding."
+           },
+        {
+            "Heading": "What I Learned",
+            "Text": "In this project, I learned a lot about scalability, making code in a way to make it easy to expand later, making the code easy to update, and easy to add new features into / make levels out of. I also learned many complex mechanisms for coding, and improved my general Knowledge a looooot."
+           },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/fKTsYIJHiZk", "size": {"width": "80%", "height": "600px"}}
+         }
+    ] ,
+    "UIProject" : [
+        {
+            "Heading": "Time Void",
+            "Text": "The multiplayer strategy game that will challenge your mind, and your cunning.",
+            "Parallax": {"file": "src/assets/imgs/TimeVoidScreenshot.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "Genre",
+            "Text": "Strategy, Multiplayer, PvP, Mobile-friendly"
+           },
+        {
+            "Heading": "The Game",
+            "Button": {"Link": "https://splashdamage115.github.io/TimeVoidGame/", "Text" : "Link to the Game"}
+           },
+           
+        {
+            "Heading": "The Game Description",
+            "Text": "The game pits 2 players against each other in either wireless online play, or local pass and play, play. The player starts with a few options, to change time, change player(in local play), end (or submit) turn, to end the turn, or to interact with a tile. The first interaction is to place one of 3 types of character, a shield character, a bow character or a sword character. Each with a unique Ability." ,
+            "Img": {"file": "src/assets/imgs/TimeVoidCharacters.png", "alt": "Image Character abilities", "size": {"width": "50%", "height": "50%"}}
+        },
+           {
+            "Text": "The player is to use these abilities intelligently to beat the opponent. The other option is after finishing a turn and a character is placed is to either attack with the character, defend with them, or move with them. Every character on the field can do an action every turn. Time travel each player can go to the past (or back to the future) with a 2 turn cooldown between changes. This means that the player must be smart with switches to either control all the tiles in the future or the past. This game requires a lot of thinking and planning to beat the other player."
+           },
+           {
+            "Heading": "The Game",
+            "Text": "In this project I made all of the assets, and all of the programming. I used a library to assist with TCP/UDP connection for the server side of hosting / peer."
+           },
+           {
+            "Heading": "Workflow",
+            "Text": "Throughout this project I had a strict list of things I had to do. I then worked through them one by one and marked off each with a tick or different pointers of progress. This helped me keep track of where I was in the project and how much I had left to do. This allowed me to time manage each part of the project and keep ahead of the rather tight deadline.",
+            "Img": {"file": "src/assets/imgs/TimeVoidWorkFlow.png", "alt": "Image of workflow indicators", "size": {"width": "50%", "height": "50%"}} 
+        },
+        {
+            "Heading": "What I Learned",
+            "Text": "I learned many time management skills and Prioritisation skills. I learned a lot about online connections and game flow things. This game required a lot of polish so that it would have no bugs and rather smooth flow for the game."
+           },
+           {
+            "Heading": "What I would Improve",
+            "Text": "The biggest thing this game is missing is animations and more feedback to the player. A simple sound track would also make the game much more enjoyable and relaxing to play. I would also try to add level layout variety to make it mnore interesting."
+           },
+         {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/J_enKbdDpZ8", "size": {"width": "80%", "height": "600px"}}
+         }
+    ],
+    "ASSembleyCalculator": [
+        {
+            "Heading" : "Assembly calculator",
+            "Text" : "Known as the worst language to code in"
+        }
+        ,
+        {
+            "Heading" : "The project",
+            "Text": "The calculator functions very similarly to that of a standard Computer calculator. This one however is made in the good old language of binary. Programmed for the Motorola 6800, This calculator includes some basic feedback with tile illumination of which is highlighted and display system at the top."
+        },
+        {
+            "Img": {"file": "src/assets/imgs/AssemblyCalculator.png", "alt": "Image of the assembely calculator", "size": {"width": "100%", "height": "100%"}} 
+        },
+        {
+            "Text" : "The main thing around this calculator was the focus on the UI elements, Making them useable and easy to access, They are a standard reflection of any calculator people use on any other system."
+        },
+        {
+            "Heading" : "Reality",
+            "Text" : "In reality, nobody would use this calculator, it only has single character operations (10 + 10 is not possible) no negatives and is on an obsolete system. So nobody would in reality ever use this."
+        },
+        {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/7vXFMnRXXp0", "size": {"width": "80%", "height": "600px"}}
+        }
+    ] ,
+    "BlindWatchers": 
+    [
+        {
+            "Heading" : "Blind Watchers",
+            "Text" : "Does the world exist if nobody Sees it?",
+            "Img": {"file": "src/assets/imgs/BlindWatchersScreenshot.png", "alt": "Image Of Home Screen of blind Watchers", "size": {"width": "75%", "height": "75%"}}
+        },
+        {
+            "Heading": "The Game",
+            "Text": "This game has a Very simple premise, Collect Drugs, and shoot them at the patients."
+        },
+        {
+            "Text": "Simple but many different aspects are in here, A full level editor, pill collection, collection bars, patrolling enemies, enemy detection system. Since The enemies are blind and you have to avoid them until you have their medication, you have to stay out of their walking sticks, or they'll chase you. Unfortunately they can smell the pills on you. So when you have them all... RUN!"
+        },
+        {
+            "Text": "This game has a nice particle effect system, fireworks when you win, a complex Cone based detection system, spatial partition for the level and a character selection screen.",
+            "Img": {"file": "src/assets/imgs/BlindWatchersScreenshot2.png", "alt": "Blind man gets shot.", "size": {"width": "50%", "height": "50%"}}
+        },
+        {
+            "Heading": "My Role",
+            "Text": "During this project my main role was working on gameplay aspects, while my partner worked on the level Editor. I made the integration of the level editor output files into the game. I also worked on the different characters, the particle system and the collision detection / vision cone."
+        } ,
+        {
+            "Heading" : "What I Learned",
+            "Text" : "I learned that many systems if made well can be reused a lot across the game. For instance the particle system made for nice 'health' splatter and for nice fireworks for when you win the game."
+        } ,
+        {
+            "Heading": "Basic Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/Nl5NQ1MqySA", "size": {"width": "80%", "height": "600px"}}
+        }
+    ],
+    "TankGame": [
+        {
+            "Heading": "Tank Game",
+            "Text": "This game has so many little features, and in depth algorithms and would be the perfect base for a full game.",
+            "Img": {"file": "src/assets/imgs/TankGameScreenshot.png", "alt": "Tank Game screenshot", "size": {"width": "75%", "height": "75%"}}
+        },
+        {
+             "Heading": "The Game",
+            "Text": "Destroy all the targets in the allotted time"
+        },
+        {
+           "Text": "Different damage states for the tank (turret rotation, hard turn left, constant drive, and destroyed), Controller Input(with 2 controller input at the same time), Bullet wall collision and enemy collision, complex ai that gets progressively more difficult, A goal for the player to complete (kill 10 enemies within 60 seconds), A scrolling screen level, accurate movement collision with the walls for the tank, arrows to point out the enemies location, accuracy tracker, level editor and level loader and a split screen versus game mode."
+        },
+        {
+            "Heading" : "What I Learned",
+            "Text" : "I learned a lot about a lot of different systems and how they all function together and how many interesting complex systems can come together to create a Fun and engaging game for the player. I learned in depth how all the systems (listed above) function programmatically and that improved my programming knowledge around them."
+        } ,
+        {
+            "Heading": "Demo: ",
+            "Video": {"file": "https://www.youtube.com/embed/5wuxIpmjC5E", "size": {"width": "80%", "height": "600px"}}
+        }
+    ],
+    "StarBean": 
+    [
+        {
+            "Heading": "Star Bean",
+            "Text": "Ever wanted to be a barista? Here is your best chance",
+            "Parallax": {"file": "src/assets/imgs/StarBeanPoster.png", "size": {"height": "500px", "width": "100%"}}
+        },
+        {
+            "Heading": "Genre",
+            "Text": "Simulator, Action, Puzzle"
+           },
+           {
+            "Heading": "Awards",
+            "Text": "2024 GAMES FLEADH AWARD FOR BEST UI"
+           },
+           {
+            "Text": "2024 GAMES FLEADH AWARD FOR BEST MUSIC"
+           },
+        {
+            "Heading": "The Game",
+            "Button": {"Link": "https://splashdamage935.itch.io/star-bean", "Text" : "Download Here"}
+           },
+           
+        {
+            "Heading": "The Game Description",
+            "Text": "Welcome to the space simulator where you take orders from Your clients and make sure that you do them correctly. Don't mess them up, the customers don't like that!" ,
+            "Img": {"file": "src/assets/imgs/StarBeanScreenshot.png", "alt": "Screenshot of customer ordering a drink", "size": {"width": "50%", "height": "50%"}}
+        },
+           {
+            "Text": "With unique sound design, Intuitive interface design, You're sure to have a fun time fulfilling the customers' orders."
+           },
+           {
+            "Heading": "Trailer: ",
+            "Video": {"file": "https://www.youtube.com/embed/g4UzKu0_Fqo", "size": {"width": "80%", "height": "400px"}}
+         },
+           {
+            "Heading": "The Game",
+            "Text": "This game contained A lot of polish, a very well thought out and useable design for the UI that went through many iterations, A tutorial system with sparkles leading the player through how to play the game. The game features amazing original sound design and Music."
+           },
+           {
+            "Heading": "My Role",
+            "Text": "I was the project lead during this Project."
+        },
+        {
+            "Text": "I was the lead programmer also doing much of the programming. I created most of the Original demo of the game. I designed the game throughout the project following an Agile methodology. I directed all team members on what was required for each day and the priorities for that day. I created the trailer and the different iterations of it."
+        },
+        {
+            "Heading": "What I Learned",
+            "Text": "I learned many different leadership priorities. I learned to prioritise the most important parts for the project. I learned so much throughout this project that I could write a book on this one Project alone."
+        },
+        {
+            "Heading": "Gameplay: ",
+            "Video": {"file": "https://www.youtube.com/embed/zcH4fpvmKMY", "size": {"width": "80%", "height": "400px"}}
+        },
+        {
+            "Video": {"file": "https://www.youtube.com/embed/Bi3v-EC3PQc", "size": {"width": "80%", "height": "400px"}}
+        },
+        {
+            "Video": {"file": " https://www.youtube.com/embed/65CtvSVyymA", "size": {"width": "80%", "height": "400px"}}
+        }
+       
+    ]
+}
